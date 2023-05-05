@@ -4,15 +4,10 @@ html {
 
 body {
     background-color: #edeae2;
+    background-size: cover;
     height: calc(100vh - 164px);
     color: #a04732;
     font-family: 'Lato';
-}
-
-.hero {
-    background: url('/media/hero-image.jpg') no-repeat center center fixed;
-    background-size: cover;
-
 }
 
 /* from Bulma */
@@ -24,10 +19,6 @@ body {
     width: 1.5rem;
 }
 
-.main-nav {
-    background-color: #a04732;
-    }
-
 .logo-font {
     text-transform: uppercase;
 }
@@ -36,6 +27,13 @@ body {
     width: fit-content;
 }
 
+.nav-logo{
+    width:300px;
+}
+
+.navbar-color{
+    background-color: #a04732;
+}
 .shop-now-button {
     background: black;
     color: white;
@@ -47,6 +45,14 @@ body {
     color: white;
 }
 
+.hero {
+    background: url('/media/hero-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 600px;
+    width: 100vw;
+    min-height: 300px;
+    color:#edeae2;
+}
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
