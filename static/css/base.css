@@ -27,6 +27,10 @@ body {
     width: fit-content;
 }
 
+.nav-color {
+    background-color: #edeae2;
+}
+
 .nav-logo{
     width:300px;
 }
@@ -76,15 +80,14 @@ body {
 }
 
 
-.overlay {
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	background: white;
-	z-index: -1;
+
+.card-img, .card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    max-height: 400px;
 }
+
+
 
 /* -------------------------------- Media Queries */
 
