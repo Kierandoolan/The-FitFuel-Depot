@@ -13,20 +13,20 @@
             </div>
         </li>
 
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="protein-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=protein" id="protein-link">
                 Protein
             </a>
         </li>
 
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="fatburner-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item">
+            <a href="{% url 'products' %}?category=fat_burner" class="logo-font font-weight-bold nav-link text-black mr-5"  id="fatburner-link">
                 Fat Burner
             </a>
         </li>
 
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="preworkout-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item ">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=preworkout" id="preworkout-link">
                 Preworkout
             </a>
         </li>
