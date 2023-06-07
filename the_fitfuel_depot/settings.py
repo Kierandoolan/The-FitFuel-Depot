@@ -16,7 +16,7 @@ SECRET_KEY = 'django-insecure-=&mb#a$9^!ft_#1@e$tj65(e=o%*at$)6%9hd$(n@55t9jkuxp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-kierandoola-thefitfueld-sx7tdjh3214.ws-us97.gitpod.io']
+ALLOWED_HOSTS = ['8000-kierandoola-thefitfueld-sx7tdjh3214.ws-eu98.gitpod.io']
 
 
 # Application definition
