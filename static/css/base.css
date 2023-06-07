@@ -136,6 +136,22 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+/* frequently asked questions */
+
+.faq {
+    padding:30px;
+    text-decoration: underline 2px;
+}
+
+.question {
+    padding:30px;
+    text-decoration: underline 2px;
+}
+
+.answer {
+    padding-left: 30px;
+}
+
 /* bootstrap toasts */
 
 .message-container {
@@ -275,6 +291,13 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+.welcome-text {
+    padding-bottom: 60px;
+}
+.footer {
+    padding: 30px;
+    border-top: 50px;
+}
 .custom-checkbox .custom-control-label::before {
     border-radius: 0;
     border-color: #dc3545;
