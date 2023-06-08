@@ -1,108 +1,382 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The FitFuel Depot
 
-Welcome Kierandoolan,
+<p align="center">
+        <img src="" alt=""/>
+    </p>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[Live Website](/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+[GitHub Repo]()
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+***
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+## Background
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+## Index - Table of Contents
 
-Another blue button should appear to click: _Open Browser_.
+* [User Experience R&D](#user-experience-research-and-design)
+    * [Strategy](#strategy)
+    * [Scope](#Scope)
+    * [Structure](#Structure)
+    * [Skeleton](#Skeleton)
+    * [Surface](#Surface)
+* [Web Marketing Strategy](#Web-marketing-strategy)
+* [Features](#Features)
+* [Data Model](#Data-Model)
+* [Testing](#Testing)
+* [Deployment](#Deployment)
+* [Credit & Attributes](#Credit-&-attributes)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## User Experience Research and Design
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Objective
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+### Design Thinking
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### Strategic Opportunities
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Scope
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+#### In Scope Features
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+#### Out of Scope Features - for future release
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Structure
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Skeleton
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+**Keyword Research**
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+#### Wireframes
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
+### Surface
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+#### Colour
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+#### Fonts
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Web Marketing Strategy
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Search Engine Optimisation (SEO)
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### XML Sitemap 
+
+
+### MailChimp Newsletter
+
+
+### Facebook Page
+
+
+
+## Features
+
+
+### Navbar and Navbar Search
+
+
+### Homepage 
+
+
+
+### Footer
+
+
+### Brand Logo
+
+
+### Bag
+
+
+### Checkout
+
+
+### User Profile
+
+
+### Contact
+
+
+### FAQs
+
+
+### Company Information
+
+
+
+
+### Admin - Product Management
+
+
+
+
+### Error Pages
+
+
+
+## Data Model
+
+
+
+### Data Security
+
+
+### Meta data
+
+
+## Technologies
+
+
+### Languages
+
+
+### Frameworks & Libraries
+
+
+
+### Software & Web Applications
+
+
+
+
+
+
+
+## Testing
+
+
+
+[Navigate to TESTING.md](TESTING.md)
+
+
+## Deployment
+
+
+
+
+### Fork and Deploy Locally with GitHub
+
+<details>
+    <summary></summary>
+
+To fork this website to either propose changes or to use as an idea for another website, follow these steps:
+1. If you haven't yet, you should first set up Git. Don't forget to set up authentication to GitHub.com from Git as well.
+1. Navigate to the [The FitFuel Depot]().
+1. Click the 'Fork' button on the upper right part of the page. It's in between 'Watch' and 'Star'.
+1. You will now have a fork of 'The FitFuel Depot' repository added to your GitHub profile. Navigate to your own profile and find the forked repository to add the required files.
+1. Above the list of forked files click the 'Code' button.
+1. A drop-down menu will appear providing a choice of cloning options. Select the one which is applicable to your setup.
+</br>
+Further details on completing the last step can be found on GitHub's [Fork a Repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo) page
+
+To deploy locally with GitHub, follow these steps:
+1. Log into your GitHub repository, create a GitHub account if necessary
+1. Click 'Settings' in the main Repository menu
+1. Click 'Pages' from the left-hand side navigation menu
+1. Within the Source section, click the "Branch" button and change from 'None' to 'Main'
+1. The page should automatically refresh with a url displayed
+1. Test the link by clicking on the url
+1. From this point you can push code to this page using the following steps from with GitPod;
+    1. With the application open, open the command line terminal (CLI)
+    1. Stage any changes using the command 'git add .' or by specifying the file with changes i.e 'git add settings.py'
+    1. Commit the changes to GitHub by adding a commit message describing the changes i.e. 'git commit -m "Update docbook dependency and generate epub"
+    1. Finally add the command 'git push' which will push all the code to GitHub. You can view the deployed code using the url generated within the steps above.
+    1. Additionally if you would like to run the application locally pre/post any changes, from the terminal type 'python3 manage.py runserver'.
+    1. A dialog box should open asking you to open port 8000, click 'Open' and navigate to the opened tab/window which should allow you to view the running application.
+    1. If the dialog box does not automatically appear, find the 'Remote Explorer' section of the left hand navbar within GitPod and click on the port '8000' and the internet/globe icon to the right which should open the running application.
+</details>
+
+
+### PostgreSQL Database
+
+<details>
+    <summary></summary>
+
+ElephantSQL replaced the originally selected free Heroku add-on PostgreSQL database due to the Heroku version becoming a chargeable service.
+Whilst in mid-project I followed steps provided by the Code Institute to migrate the database from the Heroku version to Elephant. Dependant on your circumstances you may wish to use Heroku, Elephant or another service for your database. 
+
+1. If using Elephant, navigate to elephantsql.com and click 'Get a managed database today'. When presented with options for differing plans, I chose the free 'Tiny Turtle' plan.
+1. Select “Log in with GitHub” and authorize ElephantSQL with your selected GitHub account.
+1. In the Create new team form:
+    * Add a team name (your own name is fine).
+    * Read and agree to the Terms of Service.
+    * Select Yes for GDPR.
+    * Provide your email address.
+    * Click “Create Team”.
+1. Your account should now be created.
+1. Now you will need to create your database. Navigate to your elephantsql.com dashboard, and click "Create New Instance".
+1. Set up your plan:
+    * Give your plan a Name (this is commonly the name of the project).
+    * Select the Tiny Turtle (Free) plan.
+    * You can leave the Tags field blank.
+1. Select a data center near you.
+1. Then click "Review".
+1. Check your details are correct and then click "Create Instance".
+1. Return to the ElephantSQL dashboard and click on the database instance name for this project.
+1. You will return to this projects dashboard as part of the steps to 'Deploy with Heroku' as you will need the DATABASE_URL.
+
+</details>
+
+### Gmail SMTP
+
+<details>
+    <summary></summary>
+
+Gmail SMTP has been used to send order confirmations and user contact emails in the deployed version. To use this configuration, copy and adapt the code below into your settings.py file.
 
 ```
-pkill uptime.sh
-rm .vscode/uptime.sh
+if 'DEVELOPMENT' in os.environ:
+    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+    DEFAULT_FROM_EMAIL = '(ADD YOUR EMAIL ADDRESS)@gmail.com'
+else:
+    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+    EMAIL_USE_TLS = True
+    EMAIL_PORT = 587
+    EMAIL_HOST = 'smtp.gmail.com'
+    EMAIL_HOST_USER =  os.environ.get('EMAIL_HOST_USER')
+    EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
+    DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
 ```
+</details>
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Amazon Web Services (AWS) Storage
 
----
+<details>
+    <summary></summary>
+Considering the development of the site could require a significant volume of product images, AWS has been used as the cloud host for imagery. To implement this you will need and AWS account and to create an S3 Bucket and User Profile. Developer guidance can be followed on AWS's site.
 
-Happy coding!
+To serve the images you will need to add the following config to your settings.py file.
+
+```
+if 'USE_AWS' in os.environ:
+    # Cache control
+    AWS_S3_OBJECT_PARAMETERS = {
+        'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+        'CacheControl': 'max-age=94608000',
+    }
+    # Bucket config
+    AWS_STORAGE_BUCKET_NAME = ''
+    AWS_S3_REGION_NAME = 'eu-west-2'
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+    AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+    # Static and media files
+    STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+    STATICFILES_LOCATION = 'static'
+    DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+    MEDIAFILES_LOCATION = 'media'
+    # Override static and media URLs in Production
+    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}'
+    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}'
+```
+</details>
+
+
+### Stripe
+
+<details>
+    <summary></summary>
+
+Stripe has been used to receive payments from customers. To implement you need to have an account with Stripe and follow the [documentation](https://stripe.com/docs) add incorporate the guided HTML, Python and JavaScript code. Be sure to add the secret key generated with Stripe to your Heroku Config Variables.
+
+Once Stripe is activate you can test the checkout process with a test credit card detail provided by Stripe. Please use these details (below) and not real card details as there is no guarantee monies can be returned as this is a fictitious site.
+
+| CARD NO             | MM / YY | CVC | Post Code |
+| ------------------- | ------- | --- | --------- |
+| 4242 4242 4242 4242 | 04 / 24 | 242 | 42424     |
+
+</details>
+
+
+### Deploy with Heroku
+
+<details>
+    <summary></summary>
+
+1. Log in to Heroku at https://heroku.com - create an account if needed.
+1. From the Heroku dashboard, click the Create new app button. For a new account an icon will be visible on screen to allow you to Create an app, otherwise a link to this function is located under the New dropdown menu at the top right of the screen.
+1. On the Create New App page, enter a unique name for the application and select region. Then click Create app.
+1. On the Application Configuration page for the new app, click on the Resources tab.
+1. Next, click on Settings on the Application Configuration page and click on "Reveal Config Vars".
+1. Add a new Config Var called DISABLE_COLLECTSTATIC and assign it a value of 1, and click Add to save it. Remove this when releasing for Production.
+1. Add a new Config Var called SECRET_KEY and assign it a value - any random string of letters, digits and symbols, and click Add to save it.
+1. Add a new Config Var called DATABASE_URL and paste in the value for your ElephantSQL database, and click Add to save it.
+1. The settings.py file should be updated to use the DATABASE_URL and SECRET_KEY environment variable values as follows :
+
+        DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))}
+
+        SECRET_KEY = os.environ.get('SECRET_KEY')
+
+1. In Gitpod, in the project terminal window, to initialize the data model in the postgres database, run the command : python3 manage.py migrate
+1. Update the requirements.txt file with all necessary supporting files by entering the command : pip freeze > requirements.txt
+1. Commit and push any local changes to GitHub.
+1. In order to be able to run the application on localhost, add SECRET_KEY and DATABASE_URL and their values to env.py
+
+Connect GitHub Repo to Heroku App
+
+1. Navigate to Application Configuration page for the application on Heroku and click on the Deploy tab.
+1. Select GitHub as the Deployment Method and if prompted, confirm that you want to connect to GitHub. Enter and search for the required repository, then click on Connect to link them up..
+1. Scroll down the page and choose to either Automatically Deploy each time changes are pushed to GitHub, or Manually deploy - I chose the latter for the initial deployment to watch the build and then opted for Automatic Deployment.
+1. The application can be run from the Application Configuration page by clicking on the Open App button.
+1. Each time you push code from your GitHub Repo it will be automatically reflected in your Heroku App.
+
+The url for this website can be found here 
+</details>
+
+
+### Pre Production Deployment
+
+<details>
+    <summary></summary>
+
+When you are ready to move to production, the following steps must be taken to ensure your site works correctly and is secure.
+
+In GitPod:
+1. Set DEBUG flag to False in settings.py
+1. Check the following line exists in settings.py: X_FRAME_OPTIONS = 'SAMEORIGIN'
+1. Update the requirements.txt file with all necessary supporting files by entering the command : pip freeze > requirements.txt
+1. Commit and push code to GitHub
+In the Heroku App:
+1. Settings > Config Vars : Delete environment variable : DISABLE_COLLECTSTATIC
+1. Deploy : Click on deploy branch
+</details>
+
+
+
+
+## Credit & Attributes
+
+
+### Credit & Thanks
+.
+
+
+### Attributes
+
+
+
+#### Images
+
+
+

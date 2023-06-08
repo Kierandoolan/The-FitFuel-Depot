@@ -143,10 +143,18 @@ a.category-badge > span.badge:hover {
     padding: 60px;
 }
 
+.faq-pic{
+    background: url('/media/hero-adobe.jpeg'); no-repeat center center fixed;
+    background-size: cover;
+    height:400px;
+}
+
 .card {
     background-color: #edeae2;
     text-align: left;
-    padding-top: 10px;
+    width: 100%;
+    display:inline;
+    margin-bottom: 4rem;
 }
 
 .btn-link {
