@@ -138,20 +138,23 @@ a.category-badge > span.badge:hover {
 
 /* frequently asked questions */
 
+
 .faq {
-    padding:30px;
-    text-decoration: underline 2px;
+    padding: 60px;
 }
 
-.question {
-    padding:30px;
-    text-decoration: underline 2px;
+.card {
+    background-color: #edeae2;
+    text-align: left;
+    padding-top: 10px;
 }
 
-.answer {
-    padding-left: 30px;
+.btn-link {
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    text-decoration: underline;
 }
-
 /* bootstrap toasts */
 
 .message-container {
