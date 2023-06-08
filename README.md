@@ -156,6 +156,18 @@
 
 ### Software & Web Applications
 
+* [Balsamiq](https://balsamiq.com/) to build wireframes for the Skelton phase.
+* [draw.io](https://www.draw.io/index.html) to diagram data schema/model.
+* [GitPod](https://gitpod.io/) used for the IDE and [GitHub](https://github.com/) as a hosting repository.
+* [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools) Used as the primary method for developing the sites responsiveness and identifying bugs.
+* [GitHub Kanban board](https://github.com/users/Kierandoolan/projects/6/views/1) adopted for managing and tracking the user stories using the kanban agile methodology.
+* [Heroku](https://dashboard.heroku.com/) to host the live website, including database.
+* [AWS](https://aws.amazon.com/) used to store media files.
+* [Stripe](https://stripe.com/gb?utm_campaign=paid_brand-UK_en_Search_Brand_Stripe-2032860449&utm_medium=cpc&utm_source=google&ad_content=604272871169&utm_term=stripe&utm_matchtype=e&utm_adposition=&utm_device=c&gclid=Cj0KCQjw166aBhDEARIsAMEyZh5nI26c2sSyFBiwTN1FZ35IpJyD3FJbthyXoAWkHhAYl8tT-Oru8aUaAtVyEALw_wcB) used to receive customer payments.
+* [HTML Validator](https://validator.w3.org/) validates HMTL code.
+* [W3 CSS Validator](https://jigsaw.w3.org/css-validator/validator) validates CSS code.
+* [CI Python Linter for Python](https://pep8ci.herokuapp.com/) validates Python code.
+* [JSHint](https://jshint.com/) validates JavaScript code.
 
 
 
