@@ -6,6 +6,22 @@ from .forms import UserProfileForm
 
 from checkout.models import Order
 
+def error_403_view(request, exception):
+    '''403 error view'''
+    return render(request, '403.html', status=403)
+
+
+def error_404_view(request, exception):
+    '''404 error view'''
+    return render(request, '404.html', status=404)
+
+
+def error_500_view(request):
+    """
+    404 error view
+    """
+    return render(request, '500.html', status=500)
+
 @login_required
 def profile(request):
     """ Display the user's profile. """
