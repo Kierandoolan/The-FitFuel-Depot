@@ -13,16 +13,16 @@
     <div class="container">
         <div class="row">
             <div class="col text-center mt-3">
-                <h2 class="logo-font text-white">wishlist ({{ wishlist_items_count }})</h2>
-                <hr class="w-50 mb-1">
+                <h2 class="logo-font ">You have ({{ wishlist_items_count }}) items in your wishlist</h2>
+                <hr class="w-100 mb-1">
             </div>
         </div>
     </div>
-    <div class="product-container col-10 offset-1">
+    <div class="product-container col-10 offset-1 wishlist">
         <div class="row">
             {% for item in wishlist_items %}
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="card h-100 border-0 align-items-center">
+                <div class="card col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card h-100 border-0 ">
                         {% if item.image %}
                         <a href="{% url 'product_detail' item.id %}">
                             <img class="card-img-top img-fluid" src="{{ item.image.url }}" alt="{{ item.name }}">
@@ -35,7 +35,7 @@
                         <div class="card-body pb-0">
                             <p class="mb-0">{{ item.name }}</p>
                         </div>
-                        <div class="card-footer bg-white pt-0 border-0 text-left">
+                        <div class="card-footer pt-0 border-0 text-left">
                             <div class="row">
                                 <div class="col">
                                     <p class="lead mb-0 text-left font-weight-bold">£{{ item.price }}</p>
