@@ -12,6 +12,7 @@ urlpatterns = [
     path('bag/', include('bag.urls')),
     path('checkout/', include('checkout.urls')),
     path('profile/', include('profiles.urls')),
+    path('wishlist/', include('wishlist.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler403 = 'home.views.error_403_view'
@@ -23,9 +24,9 @@ handler500 = 'bag.views.error_500_view'
 handler403 = 'checkout.views.error_403_view'
 handler404 = 'checkout.views.error_404_view'
 handler500 = 'checkout.views.error_500_view'
-handler403 = 'favourites.views.error_403_view'
-handler404 = 'favourites.views.error_404_view'
-handler500 = 'favourites.views.error_500_view'
+handler403 = 'wishlist.views.error_403_view'
+handler404 = 'wishlist.views.error_404_view'
+handler500 = 'wishlist.views.error_500_view'
 handler403 = 'products.views.error_403_view'
 handler404 = 'products.views.error_404_view'
 handler500 = 'products.views.error_500_view'
