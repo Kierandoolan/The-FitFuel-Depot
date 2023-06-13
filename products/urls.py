@@ -11,4 +11,7 @@ urlpatterns = [
          name='update_review'),
     path('submit_review/<int:product_id>/', views.submit_review,
          name='submit_review'),
+    path('delete_review/<pk>/',
+         views.ReviewDeleteView.as_view(),
+         name='delete_review'),
 ]

@@ -229,6 +229,7 @@ class RedirectToPreviousMixin:
     def get_success_url(self):
         return self.request.session['previous_page']
 
+
 class UpdateReviewView(RedirectToPreviousMixin, LoginRequiredMixin,
                        SuccessMessageMixin, UpdateView):
     """
@@ -239,6 +240,23 @@ class UpdateReviewView(RedirectToPreviousMixin, LoginRequiredMixin,
     template_name = "products/update_review.html"
     success_message = "Your review has been updated"
 
+
+class ReviewDeleteView(LoginRequiredMixin, DeleteView):
+    '''
+    View displays the option to delete the review to the user.
+    '''
+    model = ReviewRating
+    template_name = 'products/delete_review.html'
+    success_url = reverse_lazy('products')
+
+    def delete(self, request, *args, **kwargs):
+        """ delete product message """
+        response = super().delete(request, *args, **kwargs)
+        messages.success(
+            self.request, 'Your Review has been deleted sucessfully!')
+        return response
+
+        
 def get_average_rating(reviews):
     """
     Function to get the average rating of product
