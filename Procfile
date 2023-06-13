@@ -1,1 +1,1 @@
-web: gunicorn fitfuel-depot.wsgi:application
+web: gunicorn the_fitfuel_depot.wsgi:application
