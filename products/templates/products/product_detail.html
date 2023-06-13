@@ -105,6 +105,7 @@
                     </div>
                 </div>
             </div>
+            <hr>
             <div class="row">
                 <div class="col-sm col-md-8 p-5">
                     <form action="{% url 'submit_review' product.id %}" method="POST">
@@ -122,12 +123,15 @@
                                 <input type="radio" name="rating" id="rating2" value="1" required><label for="rating2" title="1"></label>
                             </div>
                             <br>
+                            <hr>
                             Review Title:
                             <input type="text" class="form-control" name="subject">
                             <br>
+                            <hr>
                             Review:
                             <textarea name="review" rows="4" class="form-control"></textarea>
                             <br>
+                            <hr>
                             <input type="submit" value="Submit Review" class="btn btn-black rounded-0">
                         </div>
                     </form>
@@ -137,7 +141,7 @@
                 <div class="col-sm col-md-8 p-5">
                     <h3>Customer Reviews</h3>
                     {% for review in reviews %}
-                        <div class="border">
+                        <div class="review-border">
                             <p class="font-weight-bold mb-2 mt-3">{{ review.subject }} Posted by: {{ review.user }} on {{ review.created_on }}</p>
                             <p class="text-black mb-2 mt-3">Rating: {{ review.rating }} </p>
                             <p class="text-black mb-2 mt-3">Review Text: {{ review.review }}</p>
