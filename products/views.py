@@ -32,7 +32,6 @@ def error_500_view(request):
     return render(request, '500.html', status=500)
 
 
-
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
@@ -56,7 +55,7 @@ def all_products(request):
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
             products = products.order_by(sortkey)
-            
+
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
@@ -67,7 +66,7 @@ def all_products(request):
             if not query:
                 messages.error(request, "You didn't enter any search criteria!")
                 return redirect(reverse('products'))
-            
+
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
 
@@ -84,15 +83,34 @@ def all_products(request):
 
 
 def product_detail(request, product_id):
-    """ A view to show individual product details """
+    """ A view to show individual product details"""
 
     product = get_object_or_404(Product, pk=product_id)
+    review_form = ReviewForm(data=request.POST or None)
+    reviews = ReviewRating.objects.filter(
+        product=product).order_by('-created_on')
+    total_reviews = reviews.count()
+    rating_average = get_average_rating(reviews)
+    Product.objects.filter(id=product.id).update(
+        rating=rating_average)
+    try:
+        wishlist = get_object_or_404(Wishlist, username=request.user.id)
+    except Http404:
+        is_product_in_wishlist = False
+    else:
+        is_product_in_wishlist = bool(product in wishlist.products.all())
 
     context = {
+        'is_product_in_wishlist': is_product_in_wishlist,
         'product': product,
+        'review_form': review_form,
+        'reviews': reviews,
+        'total_reviews': total_reviews,
+        'rating_average': rating_average
     }
 
     return render(request, 'products/product_detail.html', context)
+
 
 @login_required
 def add_product(request):
@@ -111,7 +129,7 @@ def add_product(request):
             messages.error(request, 'Failed to add product. Please ensure the form is valid.')
     else:
         form = ProductForm()
-        
+
     template = 'products/add_product.html'
     context = {
         'form': form,
@@ -196,8 +214,11 @@ def submit_review(request, product_id):
     return redirect(reverse('product_detail', args=[product.id]))
 
 
+
 class RedirectToPreviousMixin:
-   
+    """
+    A view to Redirect back to page
+    """
     default_redirect = '/'
 
     def get(self, request, *args, **kwargs):
@@ -208,7 +229,8 @@ class RedirectToPreviousMixin:
     def get_success_url(self):
         return self.request.session['previous_page']
 
-    
+
+
 def get_average_rating(reviews):
     """
     Function to get the average rating of product
