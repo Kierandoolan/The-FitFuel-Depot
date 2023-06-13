@@ -229,7 +229,15 @@ class RedirectToPreviousMixin:
     def get_success_url(self):
         return self.request.session['previous_page']
 
-
+class UpdateReviewView(RedirectToPreviousMixin, LoginRequiredMixin,
+                       SuccessMessageMixin, UpdateView):
+    """
+    A view to edit a Review
+    """
+    model = ReviewRating
+    form_class = ReviewForm
+    template_name = "products/update_review.html"
+    success_message = "Your review has been updated"
 
 def get_average_rating(reviews):
     """
