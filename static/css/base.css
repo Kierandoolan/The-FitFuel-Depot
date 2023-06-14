@@ -375,6 +375,14 @@ label:hover ~ input:checked ~ label {
     padding: 3px;
 }
 
+#mc_embed_signup {
+    background:#edeae2;
+    clear:left;
+    font:14px Helvetica,Arial,sans-serif;  
+    width:400px;
+    
+}
+
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
     .container {
