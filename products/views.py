@@ -55,7 +55,7 @@ def all_products(request):
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
             products = products.order_by(sortkey)
-
+            
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
@@ -66,7 +66,7 @@ def all_products(request):
             if not query:
                 messages.error(request, "You didn't enter any search criteria!")
                 return redirect(reverse('products'))
-
+            
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
 
@@ -212,7 +212,6 @@ def submit_review(request, product_id):
         messages.error(request, 'Your review has not been submitted')
     messages.error(request, 'Invalid Method.')
     return redirect(reverse('product_detail', args=[product.id]))
-
 
 
 class RedirectToPreviousMixin:
