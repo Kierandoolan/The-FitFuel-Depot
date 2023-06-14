@@ -1,0 +1,26 @@
+[
+{
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+        "name": "protein",
+        "friendly_name": "Protein"
+    }
+},
+{
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+        "name": "preworkout",
+        "friendly_name": "Preworkout"
+    }
+},
+{
+    "model": "products.category",
+    "pk": 3,
+    "fields": {
+        "name": "fat_burner",
+        "friendly_name": "Fat burner"
+    }
+}
+]

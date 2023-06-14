@@ -1,0 +1,743 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "category": 1,
+        "sku": "PRO10001",
+        "name": "Applied Nutrition Micellar Casein 1.8kg",
+        "description": "Applied Nutrition’s 100% Casein Protein is vital to anybody wanting to refuel their muscles during sleep, when it is impractical to consume food or drink. During this period your body can enter into starvation mode and may start to break down muscle tissue. This could have a negative impact on both muscle recovery and performance. As a result Applied Nutrition’s 100% Casein Protein is digested slowly over a sustained period of time (up to seven hours), thus supplying your muscles with the amino acids required to synthesise muscle tissue, facilitating repair and growth.\r\n\r\n100% Casein Protein hosts a complete Amino Acid profile and contains vital Branched Chain Amino Acids (BCAAs) which are the building blocks for new proteins. With minimal Fat and Carbohydrates, this product certainly compliments the desired goals of a calorie-controlled diet.",
+        "price": "45.90",
+        "rating": "4.00",
+        "image": "applied-nutrition.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "category": 1,
+        "sku": "PRO10002",
+        "name": "Bodybuilding.com Signature 100% Whey",
+        "description": "Whey protein is the most important weapon in your muscle-building arsenal. It promotes muscle growth, counteracts muscle breakdown, and supports your workout recovery.* Bonus: It's also easy to digest and a source of powerful BCAAs.* Our Signature 100% Whey Protein combines three hard-hitting types of protein in one powerful blend. It's perfect first thing in the morning, between meals, and especially after your workout. It's so delicious, it'll also slay that sweet tooth! As the basic kick-starter for lean muscle repair*, Signature 100% Whey helps you achieve peak performance by supporting a healthy metabolism and lean muscle.* -Provides 25g whey protein plus essential amino acids per serving-Supports strength and lean muscle growth*-Supports healthy metabolism & lean muscle recovery*-Ideal for use before and after training sessions or on non-training days between meals Our 25g blend combines three different sources of whey protein in one powerful blend plus digestive enzymes:-WHEY ISOLATE: Great for low-carb diets, low in fat, and easily digested.*-WHEY CONCENTRATE: Concentrate has a more balanced amount of proteins, carbs, and fats to fuel your workouts.*-WHEY HYDROLYSATE: This whey protein has been hydrolyzed, or broken down into strings of amino acids called peptides, for even faster absorption than standard whey!*-DIGESTIVE ENZYMES: These enzymes help with the digestion of your protein.* In fact, they are clinically studied and shown to increase the uptake of amino acids into the blood by 20% compared to whey protein given alone.* Signature 100% Whey Protein is perfect first thing in the morning, between meals, and especially after your workout.",
+        "price": "57.00",
+        "rating": "1.00",
+        "image": "bbcom-proptein.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "category": 1,
+        "sku": "PRO10003",
+        "name": "SYNTHA-6 5LBS PROTEIN - BSN",
+        "description": "Syntha-6 is a muscle growth and recovery supplement from BSN. This is one of the best-tasting protein products on the market. The formula contains 22 grams of a protein blend, providing fast, intermediate, and slow-digesting proteins. Syntha-6 gives a sustained release of protein that can last up to 7 hours! The versatility of this product is evident, and many bodybuilders use Syntha-6 before or after training, and even as a bedtime snack.\r\n\r\nVery few products combine taste and quality. Syntha-6 has mastered this principle. The taste is so amazing that you may just think you are drinking a milkshake. Protein synthesis improves significantly with this product.Users noticed increases in muscle size, strength, and recovery. Dieters love that each delicious serving contains only 190 calories, and 3 grams of sugar!\r\n\r\nThis product is also available in 2.91 and 10 lbs containers if you prefer either a larger or smaller size. FREE BSN Sample with each purchase!",
+        "price": "50.00",
+        "rating": "4.50",
+        "image": "bsn.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "category": 1,
+        "sku": "PRO10004",
+        "name": "Giant Sports 100% Whey Protein, Dark Chocolate Coconut",
+        "description": "From the makers of the most incredible tasting protein blend ever created comes the 100% whey protein product you’ve been waiting for. With Whey Protein Isolate as its 1st ingredient, 100% GIANT WHEY holds the highest Protein Digestibility-Corrected Amino Acid Score (PDCAAS) possible. This is the rating system used exclusively by The World Health Organization, The Food and Agricultural Organization of the United Nations & The US Food and Drug Administration to evaluate protein quality.  This means that 100% GIANT WHEY provides per unit of protein 100% (or more) of those indispensable amino acids absolutely required by the human body. 100% GIANT WHEY also contains proportionately higher amounts of Branched Chain Amino Acids (BCAA’s) and Essential Amino Acids (EAA’s) then many other sources of protein.  The net result is 100% GIANT WHEY by Giant Sports, providing an optimal balance of amino acids (the building blocks used to synthesize skeletal muscle) required for increased and sustained muscle growth.",
+        "price": "35.00",
+        "rating": "5.00",
+        "image": "coconut-protein.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "category": 1,
+        "sku": "PRO10005",
+        "name": "Dymatize ISO100 Hydrolyzed Protein Powder, 25g of 100% Whey Isolate Protein,",
+        "description": "ISO100 Fruity Pebbles: 25g of fast-digesting, hydrolyzed whey protein isolate, 5.5g branched-chain amino acids (BCAAs) and 2.6g of leucine, plus 0g fat and less than 1g of sugar per serving",
+        "price": "40.00",
+        "rating": "3.50",
+        "image": "dymatize.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "category": 1,
+        "sku": "PRO10006",
+        "name": "Elite 100% Whey Protein (2Lbs/907G) - Dymatize Nutrition",
+        "description": "Dymatize Elite 100% Whey Protein Powder is a muscular and bodybuilding high protein powder pack. It has a rich protein international quality standard. The product has high-quality food sources and ingredients that pushes you more for success to get the best achievements for bodybuilding. It sets you free from weakness or an irregular diet lifestyle. With Elite 100% Whey Protein, you become a super cool star for getting a muscular body shape. You avoid bad habits like taking addictive foods and start building the best lean body, fit muscles, and the healthiest lifestyle for longevity. \r\n\r\nThis product is vegetarian; it has sufficient calories, carbs, proteins, and amino acids for better weight management while getting your body trained for a drastic change for muscle building, effective and smart body movements.",
+        "price": "49.00",
+        "rating": "4.70",
+        "image": "elite-protein.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+        "category": 1,
+        "sku": "PRO10007",
+        "name": "Iso Whey Zero 2.27kg",
+        "description": "PREMIUM QUALITY SUGAR-FREE, LACTOSE-FREE* AND GLUTEN-FREE WHEY PROTEIN ISOLATE WITH NATIVE WHEY ISOLATE, ADDED BCAA AND AMINO ACIDS.",
+        "price": "35.00",
+        "rating": "4.00",
+        "image": "iso-jym-protein.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+        "category": 1,
+        "sku": "PRO10008",
+        "name": "ISO-GYM Protein",
+        "description": "The gold standard of protein categories has a new leader! ISO-LIT from Ballistic Labs is guaranteed to taste great, be absorbed quickly and easily, and be formulated from the highest quality, hormone free whey protein isolate on the market.",
+        "price": "39.99",
+        "rating": "4.30",
+        "image": "JYM-protein.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+        "category": 1,
+        "sku": "PRO10009",
+        "name": "Mutant Whey Protein 2.27kg",
+        "description": "MUTANT WHEY is now tastier, richer and WAY more decadent than ever! Made with 100% whey protein and the absolute best flavors commercially available, this thrilling combination will help you build more muscle while you experience an avalanche of flavor.﻿▵ Each serving is loaded with 22 grams of protein, 10.4 grams of EAAs (naturally present), 2 grams of fat, 1 gram of soluble fiber plus added digestive enzymes to help optimize results. New, improved MUTANT WHEY delivers real milkshake t",
+        "price": "48.99",
+        "rating": "4.70",
+        "image": "mutant.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+        "category": 1,
+        "sku": "PRO10010",
+        "name": "Quest Peanut Butter Protein",
+        "description": "Deliciously Versatile Protein powder\r\nOnly 116 Kcal per serving\r\n19 g of protein and less than 1 g of sugar\r\nSuitable for vegetarians\r\nSee below for recipe ideas",
+        "price": "16.99",
+        "rating": "4.00",
+        "image": "peanut-protein.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+        "category": 1,
+        "sku": "PRO10011",
+        "name": "Pro More Protein",
+        "description": "HIGH PROTEIN BLEND: Applied Nutrition’s Diet Whey Protein Powder combines CLA, L-Carnitine, Green Tea, Whey Protein Isolate and Whey Protein Concentrate. This creates a high protein blend to keep you going throughout the day and power up your workouts.",
+        "price": "30.00",
+        "rating": "3.00",
+        "image": "promore-protein.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+        "category": 1,
+        "sku": "PRO10013",
+        "name": "MuscleTech NitroTech Ripped 1.8Kg",
+        "description": "The brand with more than two decades of excellence brings you Nitro-Tech® Ripped, an advanced formula designed to amp up the performance of fitness enthusiasts far and wide. Nitro-Tech® Ripped is our highly customized whey protein formula that combines the highest quality whey protein peptides and isolate with C. canephora robusta – a scientifically tested weight loss ingredients to support you in your quest to look your best. It’s the ultimate protein plus weight loss formula available to those who refuse to accept the status quo.*",
+        "price": "35.00",
+        "rating": "4.70",
+        "image": "protein-muscletech.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+        "category": 1,
+        "sku": "PRO10015",
+        "name": "MuscleTech NitroTech Whey Chocolate Fudge 1.8Kg",
+        "description": "NITRO-TECH® is a scientifically engineered whey protein formula, and is enhanced with the most studied form of creatine for even better gains in muscle and strength. It also features whey protein, which is the most popular type of protein. Whey protein is made up of branched chain amino acids (BCAAs) and essential amino acids (EAAs), and has the highest biological value (the measure of how well your body absorbs and assimilates protein). The whey protein in NITRO-TECH is sourced primarily from whey peptides and whey isolate – two of the cleanest and purest protein sources available. Using these proteins on a daily basis is vital in helping to increase muscle protein synthesis for more muscle size and strength.",
+        "price": "56.99",
+        "rating": "4.90",
+        "image": "protein-muscletech-chocolate-fudge.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+        "category": 1,
+        "sku": "PRO10015",
+        "name": "RuleOne R1 Whey Protein Blend 908g",
+        "description": "100% WHEY PROTEIN FORMULA\r\nOur three-whey blend offers the perfect mix of nutritional quality, great taste, and bang for your buck. 100% Whey Protein from whey concentrates, isolates, and hydrolysates, 24 grams of protein per scoop, and packed with naturally-occurring EAA, BCAA, and glutamine. An overachiever in every way – except price!",
+        "price": "30.00",
+        "rating": "3.90",
+        "image": "rule-one-protein.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 15,
+    "fields": {
+        "category": 1,
+        "sku": "PRO100017",
+        "name": "Ryno Power Chocolate Protein Powder",
+        "description": "Ryno Power Protein is an excellent dietary supplement that gives your body the materials needed to build up the muscles after a workout.\r\n\r\nThis protein powder is for people who really care about their bodies. It has undergone a rigorous quality control to ensure that you are not taking any unnecessary substances. It will provide your muscles with a continuous flow of the nutrients needed for recovery. In time, you will also develop your explosiveness and build bigger muscles.",
+        "price": "30.00",
+        "rating": "2.00",
+        "image": "ryno-power-protein.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 16,
+    "fields": {
+        "category": 1,
+        "sku": "PRO10018",
+        "name": "Track Fuel Protein",
+        "description": "Our formulation provides you with an impressive 55g of protein to fuel your muscles and also offers you a great energy source by boasting a healthy 77g of carbohydrates. Our tasty shake is the ultimate all-in-one supplement from TRACK FUEL and along with the high protein and carb content to support muscle recovery, growth and performance,",
+        "price": "40.00",
+        "rating": "2.00",
+        "image": "track_fuel.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 17,
+    "fields": {
+        "category": 1,
+        "sku": "PRO10020",
+        "name": "USN protein vanilla",
+        "description": "A great tasting, meal replacement shake for those wanting to shed those extra pounds.\r\n\r\nThe USN Fuel is one of our delicious meal replacement shakes that is low on the Glycaemic Index. It has been expertly formulated to contain our top quality whey protein!",
+        "price": "32.00",
+        "rating": "4.30",
+        "image": "usn.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 18,
+    "fields": {
+        "category": 1,
+        "sku": "PRO10021",
+        "name": "PERFORMANCE WHEY PROTEIN",
+        "description": "Our delicious high-value premium-blend Performance Whey Protein formula is packed with a full 25g of clean protein, with added digestive enzymes and 5g of fiber for healthy and fast digestion and dieting satiety! This is no ordinary whey!\r\n\r\nFrom the hardcore and professional athletes to the everyday athlete who is just starting the healthy journey and who wants clean, quality products he/she can trust, all will love our products. Owners Mark Wahlberg and Tom Dowd never settle for mediocre. That’s why they created PI—a healthy lifestyle brand with a commitment to helping inspire others to be healthier and more",
+        "price": "25.00",
+        "rating": "3.10",
+        "image": "whey.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 19,
+    "fields": {
+        "category": 1,
+        "sku": "PRO100022",
+        "name": "Optimum Nutrition Gold Standard Whey Protein 2.27kg",
+        "description": "Optimum Nutrition’s GOLD STANDARD 100% WHEY™ is the world’s best-selling whey protein*. It delivers 24 g of whey protein to support muscle growth. After training, your body uses protein to help repair and rebuild muscle fibres.",
+        "price": "60.00",
+        "rating": "5.00",
+        "image": "whey-protein.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 20,
+    "fields": {
+        "category": 1,
+        "sku": "PRO10023",
+        "name": "Body Fortress Super Advanced Whey Protein Chocolate",
+        "description": "Best Protein Out there!",
+        "price": "20.00",
+        "rating": "3.30",
+        "image": "x-fortress.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 21,
+    "fields": {
+        "category": 1,
+        "sku": "PRO10024",
+        "name": "Xtend Protein",
+        "description": "Recovery is just as important to training hard when it comes to any fitness routine. You won’t grow, get better, or win without dialing in your recovery between sets, workouts, and events. Champions optimize recovery so they can train harder, recuperate faster, and come back from every workout sooner and stronger than before. With XTEND Original, you get a legendary formula with the key building blocks to set off your own fitness journey.",
+        "price": "53.00",
+        "rating": "4.40",
+        "image": "x-treme-.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 22,
+    "fields": {
+        "category": 2,
+        "sku": "PRE20001",
+        "name": "Applied Nutrition ABE Energy",
+        "description": "Introducing the all new ABE Carbonated Beverage with Zero Sugar, 200mg Caffeine, Citrulline, Beta-Alanine, Taurine, and added B-Vitamins. This magnificent Energy & Performance drink provides all of the performance of the UK's number 1 selling pre-workout in an accessible canned drink.",
+        "price": "20.00",
+        "rating": "4.90",
+        "image": "ABE-preworkout.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 23,
+    "fields": {
+        "category": 2,
+        "sku": "PRE20002",
+        "name": "ACHILLES FREAK pharmafreak, achilles freak pre-workout",
+        "description": "Mix 1 scoop in 6-12 ounces of cold water in a shaker bottle and consume 15-30 minutes before exercise. Take no more than two scoops per day.\r\n\r\nNo artificial dyes or colors are used in this product. \r\n\r\nACHILLES FREAK is a pre-workout supplement created specifically for men.\r\n\r\nACHILLES FREAK pre-workout is powered by the patented KSM-66 Ashwagandha and S7.\r\n\r\n40 servings per container!",
+        "price": "25.00",
+        "rating": "4.00",
+        "image": "achilles-preworkout.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 24,
+    "fields": {
+        "category": 2,
+        "sku": "PRE20003",
+        "name": "BBC Preworkout",
+        "description": "Train and compete with lights out intensity and energy. Total War is what every pre workout wishes it was, packing more fire power per serving than anything in its class. Whether you train before work or school, middle of the day, or later in the evening Total War has the ability to come through every time out. The powerful combination of stimulants and focus factors along with N.O. compounds makes Total War an all-in-one pre workout supplement. Enjoy the most energy, focus, and skin splitting pumps you’ve ever felt during a workout. You won’t want to go home at 30 or 40 minutes, but instead somebody will need to pull you out of the gym. Total War is not for the faint of heart, but for the serious athlete or gym goer who expects to perform at the highest level of readiness when called upon.",
+        "price": "32.00",
+        "rating": "2.00",
+        "image": "bbcom_preworkout.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 25,
+    "fields": {
+        "category": 2,
+        "sku": "PRE20004",
+        "name": "BOLT Extreme Energy Pre Workout",
+        "description": "THE PRE-WORKOUT YOU NEED TO DOMINATE YOUR WORKOUTS! TAKE ACTION NUTRITION BOLT EXTREME ENERGY PRE WORKOUT ENERGY DRINK BEFORE YOU TRAIN AND GAIN THE COMPETITIVE EDGE YOU’VE BEEN SEARCHING FOR… IF YOU TRAIN SERIOUSLY, YOU NEED A SERIOUS PRE-WORKOUT SUPPLEMENT LIKE ACTION NUTRITION BOLT EXTREME ENERGY!",
+        "price": "21.00",
+        "rating": "3.10",
+        "image": "bolt-preworkout.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 26,
+    "fields": {
+        "category": 2,
+        "sku": "PRE20005",
+        "name": "Bucked Preworkout",
+        "description": "Buckeds is a pre-workout nutritional supplement designed to boost focus, energy and strength during physical exercise, enabling you to push past your mental and physical limits.",
+        "price": "20.00",
+        "rating": "3.00",
+        "image": "bucked-up-preworkout.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 27,
+    "fields": {
+        "category": 2,
+        "sku": "PRE20006",
+        "name": "Project Pump",
+        "description": "Project Pump also features four patented ingredients in the form of AmentoPump®, BioPerine®, Cocoabuterol® and GBBGO®.",
+        "price": "19.99",
+        "rating": "4.20",
+        "image": "effectiv-preworkout.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 28,
+    "fields": {
+        "category": 2,
+        "sku": "PRE20007",
+        "name": "Elite Preworkout",
+        "description": "EFECTIV Nutrition ELITE is a comprehensive pre-workout supplement designed to enhance energy, focus and pumps. ELITE has been formulated with the experienced trainer in mind, with no expense spared on the highest quality raw ingredients including Beta Alanine, Citrulline Nitrate and Citicoline.",
+        "price": "30.00",
+        "rating": "4.60",
+        "image": "elite-preworkout.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 29,
+    "fields": {
+        "category": 2,
+        "sku": "PRE20008",
+        "name": "Engn Proworkout",
+        "description": "Engn 2.0 has unique ingredients chosen specifically for their energy, focus, and pump qualities. With massive doses of powerful nootropics and nitric oxide enhancing ergogenic aids, every serving delivers an intense Mind-Muscle connection you just won't find anywhere else.†",
+        "price": "15.00",
+        "rating": "2.90",
+        "image": "engn-preworkout.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 30,
+    "fields": {
+        "category": 2,
+        "sku": "pre20009",
+        "name": "Optimum Nutrition Gold Standard Pre-Workout 330g",
+        "description": "Optimum Nutrition Gold Standard Pre-Workout is a unique blend of high quality Caffeine, Creatine, Beta Alanine, Citrulline and L-Carnitine.\r\n\r\nPre Workouts are known for making you gain lots of energy, crazy pumps and insane focus. Well, Gold Standard Pre Workout does just that!\r\n\r\nIt contains 175mg of Caffeine. Caffeine is known to help with mental focus and alertness. Making you just focus on the goals ahead. It also increase energy making you want to smash through training.",
+        "price": "31.00",
+        "rating": "5.00",
+        "image": "gold-preworkout.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 31,
+    "fields": {
+        "category": 2,
+        "sku": "PRE20010",
+        "name": "Hyde Preworkout",
+        "description": "Hyde Preworkout  is our best selling pre-workout with a growing following!\r\n\r\nHyde Preworkout combines exactly what you want from a pre-workout:\r\n\r\nHigh Caffeine Content\r\nUnreal Flavours\r\nGreat Value",
+        "price": "25.00",
+        "rating": "4.00",
+        "image": "hyde-preworkout.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 32,
+    "fields": {
+        "category": 2,
+        "sku": "pre20011",
+        "name": "Kaged Preworkout",
+        "description": "PRE-KAGED SPORT PROVIDES CLEAN ENERGY + MENTAL CLARITY: this pre-workout powder delivers a precise combination of organic caffeine and pure L-Tyrosine that puts you into peak-performance zone with clean energy, intensity, and clear mental focus without overstimulation. With powerful ingredients like beta power Betaine, plant-based Citrulline to enhance blood flow, and Fatigue-fighting Carnosine beta-alanine, Pre-Kaged Sport pre workout powder helps you go the distance.",
+        "price": "34.00",
+        "rating": "3.90",
+        "image": "kaged-preworkout.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 33,
+    "fields": {
+        "category": 2,
+        "sku": "pre20012",
+        "name": "Marathon Preworkout",
+        "description": "Marathon is a superior intra workout BCAA powder to help you work out longer, harder, and better than sugary sports drinks. Each serving delivers patented CarnoSyn beta-alanine, and a full spectrum of fermented plant-based BCAAs amino acids, superior in quality to low quality aminos from feathers or fur. Sipped during your workout, IN-KAGED is the fuel you need to keep going, and help destroy the dreaded mid-workout crash.",
+        "price": "21.00",
+        "rating": "3.30",
+        "image": "marathon-preworkout.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 34,
+    "fields": {
+        "category": 2,
+        "sku": "PRE20013",
+        "name": "Muscle Tech Preworkout",
+        "description": "Muscle TechPRE-WORKOUT energizer powder helps you fire up your workout with clean, plant-based ingredients you can recognize. 69% DV of Antioxidant Vitamin C to help support the immune system.",
+        "price": "21.00",
+        "rating": "3.90",
+        "image": "muscletech-preworkout.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 35,
+    "fields": {
+        "category": 2,
+        "sku": "PRE20014",
+        "name": "NitroSurge Preworkout",
+        "description": "Get ready for some feel good vibes in the gym with this limited edition pre-workout from NiteoSurge.",
+        "price": "28.00",
+        "rating": "3.40",
+        "image": "nitrosurge-preworkout.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 36,
+    "fields": {
+        "category": 2,
+        "sku": "PRE20015",
+        "name": "Pumpmode Pre Workout",
+        "description": "Pump Mode is absolutely packed with ingredients you love to see in a pre-workout including 8g L-Citrulline, 4g Beta Alanine, 800mg Alpha GPC, 500mg Caffeine and 450mg Juglans Regia.",
+        "price": "28.00",
+        "rating": "4.30",
+        "image": "pumpmode-preworkout.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 37,
+    "fields": {
+        "category": 2,
+        "sku": "PRE20016",
+        "name": "Pump Preworkout",
+        "description": "PUMP combines the best of focus, pump and stimulant ingredients in high end doses to provide with with the ultimate training experience!",
+        "price": "19.00",
+        "rating": "4.20",
+        "image": "pump-preworkout.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 38,
+    "fields": {
+        "category": 2,
+        "sku": "PRE20017",
+        "name": "XL Nutrition The Purge Pre Workout 225g",
+        "description": "The Purge combines exactly what you want from a pre-workout:\r\n\r\nHigh Caffeine Content\r\nUnreal Flavours\r\nGreat Value\r\nTake a scoop 15 minutes before a workout for a caffeine packed, skin tingly rush of extreme energy and focus!\r\n\r\nThe Purge packs in 300mg caffeine, 2.5g Beta-Alanine, 1g Arginine, 500mg Citrulline Malate and more into a deliciously tasting pre-workout.",
+        "price": "30.00",
+        "rating": "5.00",
+        "image": "purge-prework.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 39,
+    "fields": {
+        "category": 2,
+        "sku": "PRE20018",
+        "name": "Sprint Preworkout",
+        "description": "Sprint Project Pump is a stimulant free pre-workout designed to support increased blood flow, endurance, cognitive performance, and combat stress during intense training sessions.",
+        "price": "32.00",
+        "rating": "3.20",
+        "image": "sprint.preworkout.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 40,
+    "fields": {
+        "category": 2,
+        "sku": "pre20019",
+        "name": "swolf",
+        "description": "Get Swole with Swolf Pre workout",
+        "price": "32.00",
+        "rating": "2.90",
+        "image": "swolf.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 41,
+    "fields": {
+        "category": 2,
+        "sku": "PRE20020",
+        "name": "Woke Preworkout",
+        "description": "WARNING - FOR ADVANCED PRE-WORKOUT USERS ONLY\r\nIntroducing Woke. This is no every day, standard pre-workout that contains basic ingredients in standard amounts. This is a fully loaded, clinically dosed formula of some of the most tried and tested pre-workout ingredients out there.",
+        "price": "40.00",
+        "rating": "4.90",
+        "image": "woke.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 42,
+    "fields": {
+        "category": 2,
+        "sku": "PRE20022",
+        "name": "YETI Preworkout",
+        "description": "Full Tilt is the brand new pre-workout from CNP which promises to take your training to the next level by combining quality ingredients to support intense energy levels and increased focus.",
+        "price": "25.00",
+        "rating": "4.60",
+        "image": "yeti-preworkout.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 43,
+    "fields": {
+        "category": 3,
+        "sku": "FAT30001",
+        "name": "Animal Cut",
+        "description": "Fat Burning Formula\r\nPotent Ingredients\r\nContains Green Tea & Black Tea Extract\r\nIncrease fat oxidation\r\nContains Dandelion & Ginger Root\r\nImprove Mental Focus\r\nAnimal Cuts contains a unique weight management formula. It is a cutting stack which has thermogenic, diuretic and metabolic complexes.",
+        "price": "50.00",
+        "rating": "5.00",
+        "image": "animal-cuts.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 44,
+    "fields": {
+        "category": 3,
+        "sku": "FAT30002",
+        "name": "evolution CLA1000",
+        "description": "EVL.CLA1000 is a potent fat burner product featuring Caffeine, Green Tea Extract, Guarana Seed Extract and L-Carnitine.",
+        "price": "30.00",
+        "rating": "2.50",
+        "image": "evl-cla1000-fat.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 45,
+    "fields": {
+        "category": 3,
+        "sku": "FAT30003",
+        "name": "Evolution Lean Mode",
+        "description": "Evolution Fat Mode formula is designed to aid your weight management goals when combined with a healthy lifestyle and consistent exercise program.\r\n\r\n50 Servings Per Container\r\nSupports Weight Loss\r\nPowered by Guarana",
+        "price": "40.00",
+        "rating": "4.30",
+        "image": "evl-leanmode-fat.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 46,
+    "fields": {
+        "category": 3,
+        "sku": "FAT30004",
+        "name": "Evolution Lean Weightloss",
+        "description": "Evolution Lean Weightloss. Similar to the original ultra concentration formulation, a number of stimulants have been dialled up to help facilitate fat burning. Studies on Green Coffee bean extract, Evodiamine, Acetyl L-Carnitine HCl and Conjugated Linoleic Acid (CLA) suggest that they can enhance fat oxidation and reduce fat mass.",
+        "price": "45.00",
+        "rating": "4.70",
+        "image": "evl-lean-weighloss.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 47,
+    "fields": {
+        "category": 3,
+        "sku": "FAT30005",
+        "name": "Evolution Transform Fat",
+        "description": "How is Evolution Transform Fat different from other products on the market?\r\n\r\nHas not just one but SIX scientifically supported benefits\r\nNo jitters or anxiety\r\nPowerful formula with smart levels of stimulants\r\nLight diuretic meaning no excess fluid retention",
+        "price": "30.00",
+        "rating": "4.10",
+        "image": "evl-transform-fat.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 48,
+    "fields": {
+        "category": 3,
+        "sku": "FAT30006",
+        "name": "Muscle Tech Hydrocut",
+        "description": "Hydroxycut Hardcore Elite provides a thermogenic and energy experience with unrivaled intensity, featuring a key weight loss ingredient.\r\n\r\n- INCREASE THERMOGENESIS\r\n- SENSORY\r\n- BOOST ENERGY & FOCUS",
+        "price": "30.00",
+        "rating": "4.70",
+        "image": "hydroxycut.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 49,
+    "fields": {
+        "category": 3,
+        "sku": "FAT30007",
+        "name": "JNX Sports The Ripper 150g *30 Servings*",
+        "description": "With more than a million bottles sold worldwide, The Ripper!® is one of the most effective and fast acting fat burners on the market today.*\r\n\r\nA full strength, fast acting formula, The Ripper! contains a concentrated blend of ingredients specifically designed to burn fat and help control food cravings.*\r\n\r\nGet clean, intense energy with enhanced mental focus throughout the day. All without the jitters often associated with other weight loss products.\r\n\r\nThe Ripper! kicks like a bull and hits like a bolt of lightning. Experience The Ripper! This is fat burning you can feel!*",
+        "price": "45.00",
+        "rating": "3.70",
+        "image": "jnx-theripper-fat.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 50,
+    "fields": {
+        "category": 3,
+        "sku": "FAT30009",
+        "name": "LIPO-6",
+        "description": "LIPO-6 KETO utilizes a potent exogenous ketone source that can help get you into ketosis faster and remain there longer. A ketosis state prompts your body to use fat as its primary fuel source, revs up your metabolism, helps control hunger cravings, increases endurance and heightens mental clarity. The faster you can get into ketosis and the longer you can stay there, the more time your body has to burn fat to fuel and help you lose weight.",
+        "price": "46.00",
+        "rating": "3.00",
+        "image": "lipo.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 51,
+    "fields": {
+        "category": 3,
+        "sku": "FAT30010",
+        "name": "MuscleTech HydroxyCut Harcore Super Elite - 100 Veg Capsules",
+        "description": "Hydroxycut Hardcore Super Elite from the Muscle Tech is a high-quality fat burner containing a full set of active ingredients supporting weight loss and getting rid of excess body fat.\r\n\r\n \r\n\r\nIn the supplement you will find a large dose of caffeine, green coffee, choline, ALA acid and strong antioxidants in the form of plant extracts . The Hydroxycut Hardcore Super Elite fat burner has also tyrosine to support the breakdown of fatty acids, fat B vitamins: B12, thiamine, riboflavin, niacin and B6 to support the proper metabolism of fats and fight fatigue.",
+        "price": "41.00",
+        "rating": "3.20",
+        "image": "muscletech-super-elite.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 52,
+    "fields": {
+        "category": 3,
+        "sku": "FAT30011",
+        "name": "Olimp THERMO SPEED",
+        "description": "Olimp THERMO SPEED Hardcore is one of the most effective products for the reduction of fat tissue, which uses a modern composition of ingredients which maintain the desired rate of metabolism, and this facilitates the control of body weight.\r\n\r\nThese are two high quality blends created solely from the highest quality standardised plant extracts, with a common effect of active substances intended to accelerate the lipolysis (fat metabolism) process and inhibit the rate of fat synthesis and accumulation.",
+        "price": "21.99",
+        "rating": "3.90",
+        "image": "Olimp-Thermo.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 53,
+    "fields": {
+        "category": 3,
+        "sku": "FAT30012",
+        "name": "Universal Nutrition Ripped Fast - 120 Caps",
+        "description": "To achieve perfect definition you need to get rid of the body fat that hides the natural muscle striations and makes you look smooth. The deeper the cuts between each fiber and the more pronounced each muscle becomes, the better you look without stimulants. Ripped Fast contains high potency lipotropics, energizers and herbals to reduce water retention. Plus, Ripped Fast contains choline, inositol, and chromium picolinate, three important lipotropic nutrients. Ripped Fast is manufactured using only select natural and scientific grade raw materials for optimum purity and absorption. Encapsulation of this product provides the highest nutritional potency recommended. Ripped Fast is the definitive fat burner.",
+        "price": "29.00",
+        "rating": "4.00",
+        "image": "ripped.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 54,
+    "fields": {
+        "category": 3,
+        "sku": "FAT30013",
+        "name": "PharmaFreak Ripped Freak Fat Burner 60 Capsules",
+        "description": "The caffeine found in RIPPED FREAK contributes to an increase in endurance capacity, alertness and attention. The vitamin B6 found in RIPPED FREAK contributes to a reduction in fatigue.\r\n\r\nDescription\r\n\r\n• Supports Fat Loss!\r\n\r\n• Increases Thermogenesis\r\n\r\n• One Capsule is all You Need!",
+        "price": "40.00",
+        "rating": "4.00",
+        "image": "ripped-freak-fat.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 55,
+    "fields": {
+        "category": 3,
+        "sku": "FAT30014",
+        "name": "Shred X",
+        "description": "Shred X is a product ahead of the curve in innovation, providing a unique combination of trusted and popular ingredients to support a multiplicity of training goals.",
+        "price": "32.00",
+        "rating": "3.80",
+        "image": "shed.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 57,
+    "fields": {
+        "category": 3,
+        "sku": "fat30015",
+        "name": "Trec Thermo Fat Burner Max",
+        "description": "Trec Thermo Fat Burner is a special combination of substances increasing the reduction of the fatty tissue and facilitating the control of body weight. The product contains standardised vegetable extracts which are rich in bioactive agents. Guarana, Green Coffee, White and Green Tea Extracts increase the speed of metabolism and thus aid slimming and strengthen the organism under a huge physical and psychological strain. Thermo Fat Burner has been additionally supplemented with L-Carnitine and Chromium, ingredients which suppress the appetite and increase the transport of fat particles to their final burning location.",
+        "price": "34.50",
+        "rating": "3.80",
+        "image": "termo-fat.jpg"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 58,
+    "fields": {
+        "category": 3,
+        "sku": "FAT30017",
+        "name": "Trec Gold Core Line Clenburexin Thermogenic",
+        "description": "- PREPARED COMPILATION OF NATURAL HERBAL FAT BURNERS, VITAMINS AND CAFFEINE\r\n- CONTAINS PANTOTHENIC ACID, WHICH HELPS TO MAINTAIN THE CORRECT ENERGETIC METABOLISM\r\nGOLD CORE LINE CLENBUREXIN offers a carefully selected combination of natural plant thermogenics, vitamins and caffeine. GOLD CORE LINE CLENBUREXIN contains pantothenic acid which is important in energy metabolism and reduces fatigue and weariness. GOLD CORE LINE CLENBUREXIN is recommended to people who are active as well as those who lead a sedentary lifestyle.",
+        "price": "37.00",
+        "rating": "3.40",
+        "image": "trec-gold-core-clenburxin.jpg"
+    }
+}
+]
