@@ -2,8 +2,10 @@
 {% block content %}
 <!-- FOOTER -->
    <footer class = "navbar-color text-black footer">
-      <img class="nav-logo logo me-4 text-center" src="{{ MEDIA_URL }}fitfuel-logo.png">
-      <a class="text-right" href="https://www.privacypolicygenerator.info/live.php?token=fNIma2gkCdTSADOs5Y0J5Id74hJrxaCj" target="_blank"> Private Policy </a>
+      <img class="me-4 text-center" src="{{ MEDIA_URL }}fitfuel-logo.png">
+         <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'privatepolicy' %}?" id="">
+             Private Policy
+         </a>
       <hr>
       <div class="row row-reverse">
          <div class="col-md-4">

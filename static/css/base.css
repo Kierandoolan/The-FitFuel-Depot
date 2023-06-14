@@ -303,6 +303,14 @@ a.category-badge > span.badge:hover {
     padding: 30px;
     border-top: 50px;
 }
+
+.private {
+    padding-left : 30px;
+}
+
+.private-sub {
+    font-style: italic;
+}
 .custom-checkbox .custom-control-label::before {
     border-radius: 0;
     border-color: #dc3545;
