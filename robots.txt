@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+sitemap: https://fitfuel-depot.herokuapp.com//sitemap.xml
