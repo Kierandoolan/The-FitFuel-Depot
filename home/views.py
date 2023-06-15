@@ -24,13 +24,3 @@ def index(request):
 
     return render(request, 'home/index.html')
 
-
-def faq(request):
-    """ A view to return the frequently ask question page """
-
-    return render(request, 'home/faq.html')
-
-def privatepolicy(request):
-    """ A view to return the private policy """
-
-    return render(request, 'home/private-policy.html')

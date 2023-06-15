@@ -10,9 +10,7 @@ urlpatterns = [
     path('', include('home.urls')),
     path('products/', include('products.urls')),
     path('bag/', include('bag.urls')),
-    path('checkout/', include('checkout.urls')),
-    path('profile/', include('profiles.urls')),
-    path('wishlist/', include('wishlist.urls')),
+    path('company/', include('company.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler403 = 'home.views.error_403_view'
