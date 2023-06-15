@@ -10,11 +10,17 @@
         <div class="row">
             <div class="col">
                 <h2 class="logo-font text-center">{{ product.name }} 
-                    {% if is_product_in_wishlist %}
-                        <a href="{% url 'remove_from_wishlist' product.id 'products' %}" aria-label="remove product from favourites" class="text-danger ml-3"><i class="fas fa-heart"></i></a>
+                    {% if user.is_authenticated %}
+                    {% if is_in_wishlist %}
+                        <a href="{% url 'remove_wishlist' product.id 'products' %}" aria-label="remove product from your wishlist" class="text-danger ml-3 wishlist">
+                            <i class="fas fa-heart"></i><p class="small mt-1 mb-0 text-muted">Remove from wishlist</p>
+                        </a>
                     {% else %}
-                        <a href="{% url 'add_to_wishlist' product.id %}" aria-label="add product to wishlist" class="text-danger ml-3"><i class="far fa-heart"></i></a>
+                        <a href="{% url 'add_wishlist' product.id %}" aria-label="add product to your wishlist" class="text-danger ml-3 wishlist">
+                            <i class="fa-regular fa-heart"></i><p class="small mt-1 mb-0 text-muted">Add to wishlist</p>
+                        </a>
                     {% endif %}
+                {% endif %}
                 </h2>
             </div>
         </div>

@@ -53,10 +53,9 @@ def wishlist_view(request):
 
 @login_required
 def add_to_wishlist(request, item_id):
-    """
-    A view that will add a product item to wishlist
-    """
-    product = get_object_or_404(Product, pk=item_id)
+    """View to add a product to wishlist"""
+
+    product = get_object_or_404(Products, pk=item_id)
     try:
         wishlist = get_object_or_404(Wishlist, username=request.user.id)
     except Http404:
@@ -64,11 +63,15 @@ def add_to_wishlist(request, item_id):
 
     if product in wishlist.products.all():
         messages.info(request, 'The product is already in your wishlist!')
+        messages.info(request, f'{product.name} is already in your \
+            wishlist!')
+
     else:
         wishlist.products.add(product)
-        messages.info(request, 'Added the product to your wishlist')
+        messages.success(request, f'{product.name} successfully added \
+            to your wishlist!')
 
-    return redirect(reverse('product_detail', args=[item_id]))
+    return redirect(reverse('product_details', args=[product.id]))
 
 
 @login_required
