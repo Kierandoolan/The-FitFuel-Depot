@@ -11,13 +11,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', '')
+SECRET_KEY = os.environ.get('SECRET_KEY', 'WEGVWE')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = True
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True
+#DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['fitfuel-depot.herokuapp.com', 'localhost',]
+ALLOWED_HOSTS = ['fitfuel-depot.herokuapp.com', 'localhost', '8000-kierandoola-thefitfueld-sx7tdjh3214.ws-eu100.gitpod.io']
 
 
 # Application definition
@@ -112,12 +112,12 @@ WSGI_APPLICATION = 'the_fitfuel_depot.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 
-#DATABASES = {
-#    'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
+DATABASES = {
+    'default': {
+         'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+     }
+ }
 
 
 DATABASES = {
