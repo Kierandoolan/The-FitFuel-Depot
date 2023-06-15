@@ -13,3 +13,8 @@ def privatepolicy(request):
     """ A view to return the private policy """
 
     return render(request, 'company/private-policy.html')
+
+
+def about_us(request):
+    """A view to return info page"""
+    return render(request, 'company/about-us.html')
