@@ -302,7 +302,7 @@ a.category-badge > span.badge:hover {
 
 footer {
     background-color: #a04732;
-    color: #edeae2
+    color: #edeae2;
     position: relative;
     flex-shrink: 0;
 }
