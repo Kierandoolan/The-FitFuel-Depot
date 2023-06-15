@@ -11,11 +11,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', '')
+SECRET_KEY = os.environ.get('SECRET_KEY', 'wgw')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = True
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True
+#DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['fitfuel-depot.herokuapp.com', 'localhost', '8000-kierandoola-thefitfueld-sx7tdjh3214.ws-eu100.gitpod.io']
 
@@ -202,7 +202,7 @@ STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
-DEFAULT_FROM_EMAIL = 'thefitfueldepot@example.com'
+DEFAULT_FROM_EMAIL = '@fitfuel.com'
 
 
 if 'DEVELOPMENT' in os.environ:
