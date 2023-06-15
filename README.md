@@ -1,295 +1,284 @@
-<h1 align="center">The FitFuel Depot</h1>
+# The FitFuel Depot
 
-<img src="assets/readme_images/responsive.png">
+
+<img src="readme-images/responsive.png">
 
 ### **Live Site**
-[]()
+[The FitFuel Depot Live Site](https://fitfuel-depot.herokuapp.com/)
 
 ### **Repository:**
-[]()
-
-# About
-
-# Table of Contents
-
-[User Experience](#user-experience)
-
-- [Strategy](#strategy)
-
-- [User Stories](#user-stories)
-
-- [Scope](#scope)
-
-- [Structure](#structure)
-    - [Databases](#databases)
-    - [Wireframes](#wireframes)
+[The FitFuel Repository](https://github.com/Kierandoolan/The-FitFuel-Depot)
 
 
-[Marketing Strategies](#marketing-strategies)
+## Contents 
 
-[Features](#features)
+- [User Experience (UX)](#user-experience-ux)
+   * [User Stories](#user-stories)
+   
+- [Design](#design)
+   * [Colour Scheme](#colour-scheme)
+   * [Typography](#typography)
+   * [Imagery](#imagery)
+   * [Wireframes](#wireframes)
+   * [Database Schema](#database-schema)
 
-[Features to be Implemented](#features-to-be-implemented)
 
-[Technologies Used](#technologies-used)
+- [Features](#features)
 
-[Testing](#testing)
+- [Technologies](#technologies)
+   * [Languages used](#languages-used)
+   * [Libraries & Programs Used](#libraries-and-programs-used)
 
-[Validator Testing](#validator-testing)
+- [Testing](#testing)
+  
+- [Deployment](#deployment)
+   
 
-[Responsive Testing](#responsive-testing)
+- [Credits](#credits)
+   * [Code](#code)
 
-[Bugs Found](#bugs-found)
+## User Experience (UX)
+A User of The FitFuel Depot Page would be someone who is looking to add supplements to their goals. It could also be for someone who has an interest in learning about these type of supplements by reading the product detail.
 
-[User Feedback](#user-feedback)
 
-[Search Engine Optimisation (SEO)](#search-engine-optimisation-seo)
-
-[Deployment](#deployment)
-
-[Credit](#credit)
-
-[Acknowledgments](#Acknowledgments)
-
-# User Experience
-
-# Strategy
-
+## User Stories 
 # User Stories
 
-Please find my Kanban Board with my user stories [here] Below is a detailed list of User Stories per User Type.
+Please find my Kanban Board with my user stories [here](https://github.com/SamanthaBooth81/clay_and_fire/projects/1). Below is a detailed list of User Stories per User Type.
 ## Superuser / Admin
+1. As a Admin I can Create a new product so that I can increase the products I have for sale on the site
+2. As a Admin I can Update a products details so that I can adjust the product information
+3. As an admin I can Delete a product so that I can change the products I have for sale on the site and if they are no longer available
+
+## Consumer
+1. As a new user I can easily register for the website so that I can purchase products quickly and easily
+2. As a returning user I can log into the site with my login details so that I can access see my profile and previous orders
+3. As a logged in user I can logout of the site easily so that my account is secure
+4. As a user I can browse through all the products so that I can choose which one which ones I may want to purchase
+5. As a user I can select a product and view it in detail so that I can see more information that may help me to purchase
+6. As a user I can filter the products so that so that I can view products by category and price
+7. As a user I can search the site for products so that I can be directed straight to it easily saving me time scrolling through products
+8. As a user I can see reviews and ratings of a product so that I can see other customer opinions on it to help me make up my mind
+9. As a logged in user I can leave a product review once purchased so that I can share my experience with other customers
+10. As a customer I can add a product to the shopping basket so that I can purchase it
+11. As a customer I can adjust the quantity of items in my bag so that I can order more or less of an item
+12. As a customer I can remove an item from my bag so that I am not charged for it
+13. As a customer I can see the total of my basket so that I know how much I have spent
+14. As a customer I can checkout securely so that I am notified the purchase has been successful
+15. As a logged in user I can add or remove a product to my favourites so that it is quick and easy to purchase the item again
+16. As a logged in user I can view my profile so that I can add default address and view orders
+17. As a user I can signup to the newsletter so that I receive news and discounts from the site
+18. As a user I can see the sites FAQ's so that I may get some answers to my questions easily
+19. As a user I can view the sites policy so that I understand how my data will be used
+20. As a user I can follow the business on social media so that I can keep up to date with latest news and offers
 
 
-## Customer
+#### User stories not yet implemented
+ write later
+
+## Design
+
+  The Design was to make it attractive for users of the site and to make it easy on the eye. 
+
+### Colour Scheme
+<h2 class="center"><img src=""></h2>
+
+- I got these five colours from the website called [coolors](coolors.co)
+- #. This was for the writing of the website.
+- #. This was for the background of the website.
+- #. This was for hovering over links eg. nav bar. 
+- #. This is the color in forms and 
 
 
-# Scope
+### Typography
+-  '', Is my main font. I believe it to be attractive for the page.
+- 'sans-serif' was chosen as fallback font.
 
-# Structure
+### Imagery
+- .
 
-
-The website is made of the following apps:
-1. Home
-2. Products
-3. Profile
-4. Bag
-5. Checkout
-6. Company
-7. Wishlist
-
-## Databases
-
-
-
-### Category
-
-
-### Products
+### Wireframes
+-   To View Home DeskTop click [here](docs/wireframes/home-desktop.png).
+-   To View Home Ipad click [here](docs/wireframes/home-ipad.png).
+-   To View Home Mobile click [here](docs/wireframes/home-mobile.png).
+-   To View Add  DeskTop click [here](docs/wireframes/addcar-desktop.png).
+-   To View Add  Ipad click [here](docs/wireframes/addcar-ipad.png).
+-   To View Browse  DeskTop click [here](docs/wireframes/browse-car-desktop.png).
+-   To View Browse  Mobile click [here](docs/wireframes/browse-cars-mobile.png).
+-   To View Browse  Tablet click [here](docs/wireframes/browse-cars-tablet.png).
+-   To View  DeskTop click [here](docs/wireframes/car-detail-desktop.png).
+-   To View   Ipad click [here](docs/wireframes/car-detail-tablet.png).
+-   To View  Mobile click [here](docs/wireframes/cardetail-mobile.png).
 
 
-### User Profile
+## Database Schema 
 
+<h2 class="center"><img src="readme-image/dataschema.png"></h2>
 
-### Review 
+- I used principles of Object-Oriented Programming throughout this project and Django’s Class-Based Generic Views.
 
+- Django AllAuth was used for the user authentication system.
 
-
-### User
-
-## Wireframes
-
-All wireframes were created using [Balsamiq](https://balsamiq.com/).
-
-
-### Facebook
-
-
-
-### Subscription
-
+- The Three Custom Models Used are 
 
 # Features
 
-## Homepage
+## Home Page
 
-### Logo
+### Logo 
 
+<h2 class="center"><img src="readme-images/fitfuel-logo.png"></h2>
 
+- This is the logo of the site
 
-### Search Bar 
+ ### Navigation bar
 
+<h2 class="center"><img src="readme-images/nav-bar.png"></h2>
 
-### My Account 
 
+### Hero Image
+<h2 class="center"><img src="readme-images/hero-pic.png"></h2>
 
+- Consist of Hero Pic. and text on the left with a button to browse shop.
 
-### Shopping Bag 
+### Welcome
+<h2 class="center"><img src="readme-images/welcome-text.png"></h2>
 
+-   A welcome text about the website
 
-### Bootstrap Toast
+### Footer
 
-### Product Navigation
+<h2 class="center"><img src="readme-images/footer.png"></h2>
 
 
-### Homepage Message
+## Browse Products
+<h2 class="center"><img src="readme-images/products-layout.png"></h2>
 
+- Consists of all Products
 
-## My Account
 
-### Account Registration
+## Product Detail
 
+<h2 class="center"><img src="readme-images/product-detail.png"></h2>
 
+- Shows All the detail of the Product
 
-### Login
+ ### Customer Review
+<h2 class="center"><img src="readme-images/customer-review.png"></h2>
 
-
-
-### My Profile
-
-
-
-### Logout
-
-
-
-## Products Page 
-
-
-## Product Details 
-
-
-## Wishlist
-
-
-## Product Review
-
-
-
-## Edit Review Form
-
-
-## Delete Review Confirmation
-
-
-##  Wishlist
-
-
-## Shopping Bag
-
-
-## Checkout
-
-
-
-## Checkout Success
-
-<img src="assets/readme_images/checkout-success.png" width="50%">
-
-
-## Footer
-
-
-
-## Company
-
-### FAQs
-
-<img src="assets/readme_images/faq.png" width="50%">
-
-
-
-### About Us
-
-
-### Privacy Policy
-
-
-
-
-
-## 404 Error Page
-
-
-
-## Admin Features
-
-### Product Management
-
-
-### Edit Products
-
-### Delete Products
-
-
-## Colour Scheme 
-
-
-
-## Font Choice
-
-
-## Favicon 
+## Accounts
+ ### Register Page
+<h2 class="center"><img src="readme-images/singup.png"></h2>
  
+ - A Register Page to sign up to the website so the user can add their detail and wishlist
 
-# Features to be Implemented
+ - Created with the helping hand of Code Insitute walk through.
 
+ ### Login Page
+<h2 class="center"><img src="readme-images/signin.png"></h2>
 
-# Technologies Used
-## Languages Used
-
-[html](https://en.wikipedia.org/wiki/HTML)
-
-[CSS](https://en.wikipedia.org/wiki/CSS)
-
-[Python](https://www.python.org/)
-
-[JavaScript](https://www.javascript.com/)
-
-## Frameworks, Libraries, and Programmes Used 
-
-[GitHub](https://github.com/) - Holds the repository of my project, GitHub connects to GitPod and Heroku.
-
-[GitPod](https://gitpod.io/workspaces) – Connected to GitHub, GitPod hosted the coding space, allowing the project to be built and then committed to the GitHub repository. 
-
-[Heroku](https://www.heroku.com/) - Connected to the GitHub repository, Heroku is a cloud application platform used to deploy this project so the backend language can be utilised/tested. 
-
-[Django](https://www.djangoproject.com/) - This framework was used to build the foundations of this project, reducing time spent getting the project setup and preventing re-writing existing code.
-
-[Bulma](https://bulma.io/) - To style the icons throughout the project.
-
-[Bootstrap](https://getbootstrap.com/) - Used to quickly add design and responsiveness to my website, Bootstrap focuses on mobile first design meaning this website is responsive across multiple devices and screen sizes.
-
-[Font Awesome](https://fontawesome.com/) - Used for all of the icons throughout the site.
-
-[Canva](https://www.canva.com/) - Used to create the favicon for the project.
-
-[Image Compressor](https://imagecompressor.com/) - Used to compress the website and product images.
-
-# Testing
-
-# Validator Testing
-
-- The HTML templates were validated using [W3 Validator](https://validator.w3.org/nu/#textarea). No major errors were returned for the HTML segments.
-- The CSS style sheet was validated using [W3C Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) and no errors were returned.
-- The JavaScript files were run through [JSHint](https://jshint.com/) and no errors were found apart from a few missing semi-colons which were added. Also, the project was run through whilst checking for any issues in the console. No errors were found.
-- The code was validated using [PEP8](http://pep8online.com/). No errors were returned.
+-   Sign in Page.
 
 
-# Responsive Testing
+ ### Log out Page
+<h2 class="center"><img src="readme-images/.png"></h2>
 
-# Bugs Found 
+ To log out of the site.
+
+ ### Features to add product
+
+ ### Delete product
+<h2 class="center"><img src="readme-images/modal.png"></h2>
 
 
-# User Feedback 
+
+ ### Contact us
+<h2 class="center"><img src="readme-images/contact-us.png"></h2>
+
+- Contact form for people to contact the admin to give feedback about the page or any issues that they might have.
+
+#### Contact form admin
+
+- Once this is Posted the Admin can look at these on the django admin page.
+<h2 class="center"><img src="readme-images/.png"></h2>
 
 
- 
-# Search Engine Optimisation (SEO)
+ ### Admin Page
 
+ <h2 class="center"><img src="readme-images/.png"></h2>
 
-# Deployment 
+ - The admin page can filter thorugh all posts, comments and through the contact forms. The admin can approve comments onto the page and delete what is not appropriate. The admin can also look through thre feedback and issues that may arise from a user. 
 
+## 404 Page
+
+<h2 class="center"><img src="readme-image/404.png"></h2>
+
+### Features to Add in the Future. 
+
+## Technologies
+
+### Languages used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+- [Python](https://www.python.org/)
+
+### Libraries and Programs Used
+
+- [Git](https://git-scm.com/)
+    - Version control.
+- [GitHub](https://github.com/)
+    - For storing code and deploying the site.
+- [Gitpod](https://www.gitpod.io/)
+    - Used for building and editing my code.
+- [Django](https://www.djangoproject.com/)
+    - A python based framework that was used to develop the site.
+- [Django-allauth](https://django-allauth.readthedocs.io/en/latest/installation.html)
+    - A authentication library used to create the user accounts
+- [Google Fonts](https://fonts.google.com/)
+    - Used for getting fonts.
+- [Bootstrap](https://getbootstrap.com/)
+    - For help designing the html templates.
+- [Font Awesome](https://fontawesome.com/)
+    - Used to obtain the icons used.
+- [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+    - Used to help fix problem areas and identify bugs.
+- [Cloudinary](https://cloudinary.com/)
+    - Used to store static files and images.
+- [Favicon.io](https://favicon.io/)
+    - Used to generate the site's favicon.
+- [PostgreSQL](https://www.postgresql.org/)
+    - Database used through heroku.
+- [Coolors](https://coolors.co/) -
+    - Used for colour palette
+- [Lucidchart](https://lucid.app/)
+    - Used for Data Schema
+- [Balsamiq](https://balsamiq.com/)
+    - To create the wireframes.
+- [W3C Markup Validation Service](https://validator.w3.org/) 
+    - Used to validate HTML code.
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - Used to validate CSS code.
+- [PEP8CI](https://pep8ci.herokuapp.com/)
+    - Used to validate Python code.
+- [JSHint](https://jshint.com/)
+    - Used to validate JS code.
+- [Crispy Forms](https://django-crispy-forms.readthedocs.io)
+    - Used for forms.
+- [Heroku](https://www.heroku.com/)
+    - To deploy the project.
+
+### Database Security
+I used an env.py file to protect all sensitive information.
+
+Cross-Site Request Forgery (CSRF) tokens were used on all forms throughout this site.
+## Testing 
+This Project was tested manually.
+
+Testing and results can be found [here](/TESTING.md)
+
+# Deployment
 
 This project was deployed using Heroku. At the time of deployment, Heroku was facing a security issue, therefore this project was deployed via the command line in GitPod and those are the steps detailed below. As this was the case I was unable to allow automatic deployments in Heroku each time a commit was pushed into the repository.
 
@@ -447,12 +436,29 @@ I also set DEBUG to 'DEVELOPMENT' in os.environ as for security it cannot be set
 35. Within this file I imported both our settings from django.conf and the s3boto3 storage class from Django Storages. Then I created custom classes for static storage and media storage which inherited the imported class from Django Storages to give it all its functionality. Then I set the class to store static and media files in the location specified in the USE_AWS if statement within settings.py.
 
 36. Finally, to complete the deployment of the AWS setup, I committed the changes and pushed them to GitHub. In the command line I then typed the following command: **git push heroku main**. If you need to login to Heroku again complete steps 14 - 16 to re-deploy. Once Heroku is allowing users to connect to their GitHub accounts you can set up automatic deploys which will remove the need to repeat these steps.
-# Credit
-## Content 
+
+## Credits
+
+### Content
+
+-   All content was written by the developer with the help of Code insitute Walkthroughs and the help of my collegues on slack and tutors. Big thank you to them!
+
+### Acknowledgements
+
+-   My Mentor for continuous helpful feedback.
+
+-   Tutor support at Code Institute for their support. Big shout out to Ed.
+
+-   The Teachers at Code Institude for helpful videos and walk through project
+
+-   My collegues on the slack app who helped me when i had any issues.
+
+-   Also to my military work collegues who i'm sharing a room with for the last 6 months in Lebanon for their patiences with me during my time doing this. 
+
+ ### Other
+
+ ## Media
+ - ALL my pictures are from a stock site called [Pexels](www.pexels.com)
 
 
-### Styling
 
-### Website Images
-
-# Acknowledgments
