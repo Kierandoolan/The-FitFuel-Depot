@@ -299,11 +299,57 @@ a.category-badge > span.badge:hover {
 .welcome-text {
     padding-bottom: 60px;
 }
-.footer {
-    padding: 30px;
-    border-top: 50px;
+
+footer {
+    background-color: #a04732;
+    color: #edeae2
+    position: relative;
+    flex-shrink: 0;
 }
 
+.footer {
+    margin-top: 60px;
+}
+
+.footer-links {
+    color: #edeae2;
+    cursor: pointer;
+}
+
+.footer-links:hover {
+    color: #edeae2;
+}
+
+.copyright{
+    float: left;
+    width: 95%;
+    padding: 5px;
+}
+
+.copyright p {
+    display: inline-block;
+    margin: 0;
+}
+
+.copyright i {
+    color: #edeae2;
+}
+
+.footer-div {
+    padding: 5px;
+}
+
+.footer-header {
+    padding: 8px;
+}
+
+.footer-title {
+    color:#edeae2;
+}
+
+#mc_embed_signup {
+    clear: left;
+}
 .private {
     padding-left : 30px;
 }
@@ -385,9 +431,8 @@ label:hover ~ input:checked ~ label {
 
 #mc_embed_signup {
     background:#edeae2;
-    clear:left;
     font:14px Helvetica,Arial,sans-serif;  
-    width:400px;
+    width:300px;
     
 }
 
