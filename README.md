@@ -37,12 +37,12 @@
 - [Credits](#credits)
    * [Code](#code)
 
+# User Stories
+
 ## User Experience (UX)
 A User of The FitFuel Depot Page would be someone who is looking to add supplements to their goals. It could also be for someone who has an interest in learning about these type of supplements by reading the product detail.
 
 
-## User Stories 
-# User Stories
 
 Please find my Kanban Board with my user stories [here](https://github.com/SamanthaBooth81/clay_and_fire/projects/1). Below is a detailed list of User Stories per User Type.
 ## Superuser / Admin
@@ -139,13 +139,14 @@ i will explain futher down.
 
 ## Database Schema 
 
-<h2 class="center"><img src="readme_image/dataschema.png"></h2>
+<h2 class="center"><img src="readme_images/drawsql.png"></h2>
 
 - I used principles of Object-Oriented Programming throughout this project and Django’s Class-Based Generic Views.
 
 - Django AllAuth was used for the user authentication system.
 
-- The Three Custom Models Used are 
+- Unfortunlately i had to use "Charfield" alot in the app i was using. There wasn't options to put in the fields i wanted and i was running out of time.  
+
 
 # Features
 
@@ -222,11 +223,11 @@ i will explain futher down.
 
 ## Product Review
 
-<h2 class="center"><img src="customer-review.png"></h2>
+<h2 class="center"><img src="readme_images/customer-review.png"></h2>
 
 ## Review Form
 
-<h2 class="center"><img src="writereview.png"></h2>
+<h2 class="center"><img src="readme_images/writereview.png"></h2>
 
 ## Edit Review Form
 
@@ -333,7 +334,7 @@ Fix Errror
     - Database used through heroku.
 - [Coolors](https://coolors.co/) -
     - Used for colour palette
-- [Lucidchart](https://lucid.app/)
+- [DrawSQL](https://drawsql.app/)
     - Used for Data Schema
 - [Balsamiq](https://balsamiq.com/)
     - To create the wireframes.
