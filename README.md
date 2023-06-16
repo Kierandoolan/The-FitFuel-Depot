@@ -14,6 +14,8 @@
 
 - [User Experience (UX)](#user-experience-ux)
    * [User Stories](#user-stories)
+   * [Business Model](#business-model)
+   * [Marketing](#marketing)
    
 - [Design](#design)
    * [Colour Scheme](#colour-scheme)
@@ -525,6 +527,8 @@ I also set DEBUG to 'DEVELOPMENT' in os.environ as for security it cannot be set
 
 -   All content was written by the developer with the help of Code insitute Walkthroughs and the help of my collegues on slack and tutors. Big thank you to them!
 
+- I got my css for star rating from a udemy course called [Django ecommerce project based course](https://www.udemy.com/course/django-ecommerce-project-based-course-python-django-web-development)
+
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
@@ -540,7 +544,11 @@ I also set DEBUG to 'DEVELOPMENT' in os.environ as for security it cannot be set
  ### Other
 
  ## Media
- - ALL my pictures are from a stock site called [Pexels](www.pexels.com)
+ - ALL my static are from a stock site called [Pexels](www.pexels.com)
+
+ - I had to use google images for a lot of the product images by search.
+
+ - i also used some from [Hpnutrition] (hpnutrition.ie) I would highly recommend them. 
 
 
 
