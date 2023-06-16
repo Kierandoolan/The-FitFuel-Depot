@@ -1,7 +1,7 @@
 # The FitFuel Depot
 
 
-<img src="readme-images/responsive.png">
+<h2 class="center"><img src="readme_images/responsive.png">
 
 ### **Live Site**
 [The FitFuel Depot Live Site](https://fitfuel-depot.herokuapp.com/)
@@ -76,44 +76,70 @@ Please find my Kanban Board with my user stories [here](https://github.com/Saman
 #### User stories not yet implemented
  write later
 
+
+## Business Model
+
+- A traditional B2C (Business to Customer) application has been chosen, with a straightforward and user-friendly responsive interface.
+
+- This online store offers supplements to the customer.
+
+## Marketing
+
+- This site has a Facebook Business Page with a link on the page footer. It can be viewed here:
+[The FitFuel Depot](https://www.facebook.com/thefitfueldepot/)
+
+- Users can subscribe to our newsletter to receive all offers in their email box. Subscription links are available on the footer on all pages. 
+
+- Upon registering, the user is redirected to a new page confirming their subscription. The site owner can now see the new subscriber on their audience dashboard, and new campaigns will be sent to them too.
+
+
+- I have searched similar websites and google for good key words to apply to the site for SEO purposes:
+
+1. Fitness
+2. Supplements
+3. Protein
+4. Muscle
+5. Fatloss
+6. Energy
+
+- I have used the meta description and keywords to improve the SEO
+
 ## Design
 
   The Design was to make it attractive for users of the site and to make it easy on the eye. 
 
 ### Colour Scheme
-<h2 class="center"><img src=""></h2>
+<h2 class="center"><h2 class="center"><img src="readme_images/coloor.png"></h2>
 
-- I got these five colours from the website called [coolors](coolors.co)
-- #. This was for the writing of the website.
-- #. This was for the background of the website.
-- #. This was for hovering over links eg. nav bar. 
-- #. This is the color in forms and 
+- I got these four simple colours from the website called [coolors](coolors.co)
+- #A04732. This was for the writing of the website.
+- #EDEAE2. This was for the background of the website.
+- #000000. This was for buttons and the banner. 
+- #FFFFFF. This was for product cards to make it easy to read.
 
 
 ### Typography
--  '', Is my main font. I believe it to be attractive for the page.
+-  ''Work Sans', Is my main font. I believe it to be attractive for the page.
 - 'sans-serif' was chosen as fallback font.
 
 ### Imagery
-- .
+- The Logo, Hero Pic and also the FAQ is the only static images displayed on the website. All other images was uploaded onto my AWS Bucket that 
+i will explain futher down.
 
 ### Wireframes
--   To View Home DeskTop click [here](docs/wireframes/home-desktop.png).
--   To View Home Ipad click [here](docs/wireframes/home-ipad.png).
--   To View Home Mobile click [here](docs/wireframes/home-mobile.png).
--   To View Add  DeskTop click [here](docs/wireframes/addcar-desktop.png).
--   To View Add  Ipad click [here](docs/wireframes/addcar-ipad.png).
--   To View Browse  DeskTop click [here](docs/wireframes/browse-car-desktop.png).
--   To View Browse  Mobile click [here](docs/wireframes/browse-cars-mobile.png).
--   To View Browse  Tablet click [here](docs/wireframes/browse-cars-tablet.png).
--   To View  DeskTop click [here](docs/wireframes/car-detail-desktop.png).
--   To View   Ipad click [here](docs/wireframes/car-detail-tablet.png).
--   To View  Mobile click [here](docs/wireframes/cardetail-mobile.png).
+-   To View Home DeskTop click [here](readme_images/home-desktop.png).
+-   To View Home Ipad and Iphone click [here](readme_images/home-ipad-iphone.png).
+-   To View Product Page Desktop click [here](readme_images/product-desktop.png).
+-   To View Product Page Ipad and Iphone click [here](readme_images/product-page-iphone-ipad.png).
+-   To View Product Detail Desktop click [here](readme_images/product-desktop.png).
+-   To View Product Detail Ipad and Iphone click [here](readme_images/product-detail-ipad-iphone.png).
+-   To View Checkout Page Desktop click [here](readme_images/checkout-desktop.png).
+-   To View Checkout Page Ipad and Iphone click [here](readme_images/checkout-ipad-iphone.png).
 
 
 ## Database Schema 
 
-<h2 class="center"><img src="readme-image/dataschema.png"></h2>
+<h2 class="center"><img src="readme_image/dataschema.png"></h2>
 
 - I used principles of Object-Oriented Programming throughout this project and Django’s Class-Based Generic Views.
 
@@ -123,95 +149,144 @@ Please find my Kanban Board with my user stories [here](https://github.com/Saman
 
 # Features
 
-## Home Page
+## Homepage
 
-### Logo 
+### Logo
 
-<h2 class="center"><img src="readme-images/fitfuel-logo.png"></h2>
+<h2 class="center"><img src="readme_images/fitfuel-logo.png"> </h2>
 
-- This is the logo of the site
+### Search Bar 
 
- ### Navigation bar
+<h2 class="center"><img src="readme_images/searchbar.png"> </h2>
 
-<h2 class="center"><img src="readme-images/nav-bar.png"></h2>
+### My Account 
 
+<h2 class="center"><img src="readme_images/myaccount.png"> </h2>
 
-### Hero Image
-<h2 class="center"><img src="readme-images/hero-pic.png"></h2>
+### Shopping Bag 
 
-- Consist of Hero Pic. and text on the left with a button to browse shop.
+<h2 class="center"><img src="readme_images/shopping-icon.png"> </h2>
 
-### Welcome
-<h2 class="center"><img src="readme-images/welcome-text.png"></h2>
+### Bootstrap Toast
 
--   A welcome text about the website
+<h2 class="center"><img src="readme_images/success-toast.png"> </h2>
 
-### Footer
+### Product Navigation with Banner
 
-<h2 class="center"><img src="readme-images/footer.png"></h2>
-
-
-## Browse Products
-<h2 class="center"><img src="readme-images/products-layout.png"></h2>
-
-- Consists of all Products
+<h2 class="center"><img src="readme_images/nav-bar.png"> </h2>
 
 
-## Product Detail
+### Hero Picture
 
-<h2 class="center"><img src="readme-images/product-detail.png"></h2>
+<h2 class="center"><img src="readme_images/hero-pic.png"></h2>
 
-- Shows All the detail of the Product
-
- ### Customer Review
-<h2 class="center"><img src="readme-images/customer-review.png"></h2>
-
-## Accounts
- ### Register Page
-<h2 class="center"><img src="readme-images/singup.png"></h2>
- 
- - A Register Page to sign up to the website so the user can add their detail and wishlist
-
- - Created with the helping hand of Code Insitute walk through.
-
- ### Login Page
-<h2 class="center"><img src="readme-images/signin.png"></h2>
-
--   Sign in Page.
+### Welcome Message
 
 
- ### Log out Page
-<h2 class="center"><img src="readme-images/.png"></h2>
+## My Account
 
- To log out of the site.
+### Account Registration
 
- ### Features to add product
+<h2 class="center"><img src="readme_images/signup.png"> </h2>
 
- ### Delete product
-<h2 class="center"><img src="readme-images/modal.png"></h2>
+### Login
 
+<h2 class="center"><img src="readme_images/signin.png"> </h2>
 
+### My Profile
 
- ### Contact us
-<h2 class="center"><img src="readme-images/contact-us.png"></h2>
+- Delivery Information and Order History
 
-- Contact form for people to contact the admin to give feedback about the page or any issues that they might have.
+<h2 class="center"><img src="readme_images/myprofile.png"> </h2>
 
-#### Contact form admin
+-Checkout Complete
 
-- Once this is Posted the Admin can look at these on the django admin page.
-<h2 class="center"><img src="readme-images/.png"></h2>
+<h2 class="center"><img src="readme_images/checkout-success.png"> </h2>
 
 
- ### Admin Page
+### Logout
 
- <h2 class="center"><img src="readme-images/.png"></h2>
+<h2 class="center"><img src="readme_images/signout.png"> </h2>
 
- - The admin page can filter thorugh all posts, comments and through the contact forms. The admin can approve comments onto the page and delete what is not appropriate. The admin can also look through thre feedback and issues that may arise from a user. 
+## Products Page 
 
-## 404 Page
+<h2 class="center"><img src="readme_images/products-layout.png"></h2>
 
-<h2 class="center"><img src="readme-image/404.png"></h2>
+## Product Details 
+
+<h2 class="center"><img src="readme_images/product-detail.png"></h2>
+
+## Wishlist
+
+<h2 class="center"><img src="readme_images/wishlist.png"> </h2>
+
+## Product Review
+
+<h2 class="center"><img src="customer-review.png"></h2>
+
+## Review Form
+
+<h2 class="center"><img src="writereview.png"></h2>
+
+## Edit Review Form
+
+<h2 class="center"><img src="readme_images/update-review.png"></h2>
+
+## Delete Review Confirmation
+
+<h2 class="center"><img src="readme_images/delete-review.png"> </h2>
+
+## Favourited Products (Wishlist)
+
+<h2 class="center"><img src="readme_images/wishlist.png"></h2>
+
+## Shopping Bag
+
+<h2 class="center"><img src="readme_images/shopping-bag.png"> </h2>
+
+## Checkout
+
+<h2 class="center"><img src="readme_images/checkout.png"> </h2>
+
+
+## Checkout Success
+
+<h2 class="center"><img src="readme_images/checkout-success.png"> </h2>
+
+
+## Footer
+
+<h2 class="center"><img src="readme_images/footer.png"></h2>
+
+## Help
+
+### FAQs
+
+<h2 class="center"><img src="readme_images/faq.png"> </h2>
+
+## Company
+### About Us
+
+<h2 class="center"><img src="readme_images/about.png"> </h2>
+
+### Privacy Policy
+
+<h2 class="center"><img src="readme_images/privacy-policy.png"> </h2>
+
+
+
+## 404 Error Page
+
+<h2 class="center"><img src="readme_images/error.png"> </h2>
+Fix Errror
+
+## Admin Features
+
+### Product Management
+<h2 class="center"><img src="readme_images/product-management.png"> </h2>
+
+### Edit Products
+<h2 class="center"><img src="readme_images/product-edit.png"> </h2>
 
 ### Features to Add in the Future. 
 
@@ -236,8 +311,14 @@ Please find my Kanban Board with my user stories [here](https://github.com/Saman
     - A python based framework that was used to develop the site.
 - [Django-allauth](https://django-allauth.readthedocs.io/en/latest/installation.html)
     - A authentication library used to create the user accounts
+- [Bulma](https://bulma.io/) 
+    - To style the icons throughout the project.
+- [AWS S3 Buckets](https://aws.amazon.com/s3/)
+	- AWS S3 Buckets provides the storage for the deployed sites static and Media files.
 - [Google Fonts](https://fonts.google.com/)
     - Used for getting fonts.
+- [Am I Responsive](http://ami.responsivedesign.is/#)
+    - Multi Device Website Mockup Generator was used to create the Mock up image in this README
 - [Bootstrap](https://getbootstrap.com/)
     - For help designing the html templates.
 - [Font Awesome](https://fontawesome.com/)
