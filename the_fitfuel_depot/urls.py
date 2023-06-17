@@ -3,7 +3,7 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
-from .views import handler404
+from .views import handler404, handler500
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -17,21 +17,8 @@ urlpatterns = [
     path('company/', include('company.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-handler403 = 'home.views.error_403_view'
-handler404 = 'home.views.error_404_view'
-handler500 = 'home.views.error_500_view'
-handler403 = 'bag.views.error_403_view'
-handler404 = 'bag.views.error_404_view'
-handler500 = 'bag.views.error_500_view'
-handler403 = 'checkout.views.error_403_view'
-handler404 = 'checkout.views.error_404_view'
-handler500 = 'checkout.views.error_500_view'
-handler403 = 'wishlist.views.error_403_view'
-handler404 = 'wishlist.views.error_404_view'
-handler500 = 'wishlist.views.error_500_view'
-handler403 = 'products.views.error_403_view'
-handler404 = 'products.views.error_404_view'
-handler500 = 'products.views.error_500_view'
-handler403 = 'profiles.views.error_403_view'
-handler404 = 'profiles.views.error_404_view'
-handler500 = 'profiles.views.error_500_view'
+# override the standard error handlers
+handler403 = 'tcc.views.handler403'
+handler404 = 'tcc.views.handler404'
+handler405 = 'tcc.views.handler405'
+handler500 = 'tcc.views.handler500'
