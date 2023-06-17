@@ -1,8 +1,7 @@
 
 
-## Manually Testing Functionality
 
-## User story testing
+## User Story Testing
 ### Admin
 * As a Admin I can Create a new product so that I can increase the products I have for sale on the site
    > Admin can create new products in product management or admin panel
@@ -53,6 +52,58 @@
 *   As a user I can follow the business on social media so that I can keep up to date with latest news and offers
   > The page has facebook and also Instagram. 
 
+## Functionality testing
+
+Throughout developing this site, I have been using Chrome, and chrome dev tools to help with debugging issues. Testing responsiveness was done using chrome emulated devices
+
+## Compatibility testing
+
+Chrome emulated devices, and hardware devices iphone 14, desktop and Ipad were used to test compatibility.
+
+## Python
+[ CI Python linter ](https://pep8ci.herokuapp.com/) was used to test python code. Below i will give what bugs came up in each app.
+
+Throughout the website i kept getting E501 line too long and i did fix them but my code was failing because of this and it took me a few days to rectify all the mistakes to make it run again. Because of this i let the "E501 line too long" keep as they are in order to have everything running and save me debugging. 
+
+
+## Bugs for Bags
+
+1. E303 too many blank lines (3)
+
+- Fixed 
+## Bug for Checkout
+
+1. E305 expected 2 blank lines after class or function definition, found 1
+2. W292 no newline at end of file
+3. E302 expected 2 blank lines, found 1
+
+- Fixed 
+
+## Bugs for Company
+
+- No Bugs
+
+## Bugs for Home
+
+- No Bugs
+
+## Bugs for Products
+
+1. W292 no newline at end of file
+
+- Fixed
+
+## Bugs for the_fitfuel_depot
+
+1. E131 continuation line unaligned for hanging indent
+
+- Fixed
+## Bugs for Wishlist
+
+1. No Bugs
+
+
+## Manually Testing Functionality
 
 ### **Navigation**
 

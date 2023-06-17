@@ -14,7 +14,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = True
+# DEBUG = True
 DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['fitfuel-depot.herokuapp.com', 'localhost', '8000-kierandoola-thefitfueld-sx7tdjh3214.ws-eu100.gitpod.io']
@@ -69,7 +69,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required by allauth
+                'django.template.context_processors.request',  # required by allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
@@ -81,7 +81,7 @@ TEMPLATES = [
             ]
         },
     },
-] 
+]
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
@@ -123,7 +123,7 @@ DATABASES = {
 DATABASES = {
      'default': dj_database_url.parse('postgres://vjasxigo:FfHcvwbuhL-cpv9JmvEio9uZtPvSVoBs@horton.db.elephantsql.com/vjasxigo')
 }
-    
+
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
