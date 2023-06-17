@@ -46,7 +46,7 @@ A User of The FitFuel Depot Page would be someone who is looking to add suppleme
 
 
 
-Please find my Kanban Board with my user stories [here](https://github.com/SamanthaBooth81/clay_and_fire/projects/1). Below is a detailed list of User Stories per User Type.
+Please find my Kanban Board with my user stories [here](https://github.com/users/Kierandoolan/projects/6). Below is a detailed list of User Stories per User Type.
 ## Superuser / Admin
 1. As a Admin I can Create a new product so that I can increase the products I have for sale on the site
 2. As a Admin I can Update a products details so that I can adjust the product information
@@ -352,6 +352,8 @@ Fix Errror
     - Used for forms.
 - [Heroku](https://www.heroku.com/)
     - To deploy the project.
+- [iLoveIMG ](https://www.iloveimg.com/)
+    - For Formatting images 
 
 ### Database Security
 I used an env.py file to protect all sensitive information.

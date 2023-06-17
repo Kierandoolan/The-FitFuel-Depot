@@ -540,6 +540,10 @@ I was having trouble uploading to Heroku and kept getting a "Application error  
 
 ### 404 Error page not showing" 
 
-I was finding it hard to upload all my error pages and kept getting a "internal error"
+I was finding it hard to upload all my error pages and kept getting a "Internal Server Error"
+
+### Lines to long 
+
+I was fixing the python code due to errors with testing. Once i was done i tried to runserver and alot of the code was broken. I couldnt figure out for a while what was causing all the problems. I thought it would be better if i kept these lines as they were for the sakes of the project being done in time. 
 
 
