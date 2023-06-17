@@ -520,3 +520,26 @@ Throughout the website i kept getting E501 line too long and i did fix them but 
 
 ---
 ---
+
+
+## Bugs
+
+There has been plenty of bugs throughtout these process but thanks to my collegues on slack and the most helpful tutors i have been able to rectify some of these 
+
+### Database transfer 
+
+When i connected to Heroku i could see none of the product images were transfered over. I checked the admin to confirm if there are any products in my database? I could see that there wasn't. So with the help of Ed the tutor he helped me get them across with categories.json and the products.json.  Which helped me with time and stress. 
+
+### AWS Bucket 
+
+I couldn't connect my Logo and Hero Pictures to my Heroku. It turned out i had a hardcorded path and it couldnt pic this up. i changed the code to src="{{ MEDIA_URL }}fitfuel-logo.png" and it fixed the issue. 
+
+### Procfile
+
+I was having trouble uploading to Heroku and kept getting a "Application error  crash error code=H10" . It turned out my Profile was wrong as i had the name of the heroku name on it and not the "the_fitfuel_depot"
+
+### 404 Error page not showing" 
+
+I was finding it hard to upload all my error pages and kept getting a "internal error"
+
+
