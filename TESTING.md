@@ -60,6 +60,53 @@ Throughout developing this site, I have been using Chrome, and chrome dev tools 
 
 Chrome emulated devices, and hardware devices iphone 14, desktop and Ipad were used to test compatibility.
 
+## W3C Markup
+[W3C Markup Validation Service](https://validator.w3.org/) was used to test the website site. Below is the testing on each page.
+
+There were plenty of errors that i fixed but these were the ones i struggled to undo. 
+
+# Unfixed Errors
+1. The aria-labelledby attribute must point to an element in the same document.
+2. Element li not allowed as child of element nav in this context. (Suppressing further errors from this subtree.)
+3. Stray start tag footer.
+
+### https://fitfuel-depot.herokuapp.com/index
+
+- Errors all cleared except above. 
+
+### https://fitfuel-depot.herokuapp.com/products/
+
+-All Cleared excited issued as stated above
+
+### https://fitfuel-depot.herokuapp.com/products/3/
+
+-All Cleared excited issued as stated above
+
+### https://fitfuel-depot.herokuapp.com/company/faq?
+
+-All Cleared excited issued as stated above
+
+### https://fitfuel-depot.herokuapp.com/wishlist/
+
+-All Cleared excited issued as stated above
+
+### https://fitfuel-depot.herokuapp.com/bag/
+
+-All Cleared excited issued as stated above
+
+### https://fitfuel-depot.herokuapp.com/checkout/
+
+### https://fitfuel-depot.herokuapp.com/checkout/checkout_success/
+
+### https://fitfuel-depot.herokuapp.com/company/about-us/
+
+# Unfixed Errors
+1. The aria-labelledby attribute must point to an element in the same document.
+2. Element li not allowed as child of element nav in this context. (Suppressing further errors from this subtree.)
+3. Stray start tag footer.
+
+
+
 ## CSS
 [Jigsaw Css vaildator](https://jigsaw.w3.org/css-validator/) was used to test my Css Code. There were no errors in Products Css. However there was two in the base.css . 
 
