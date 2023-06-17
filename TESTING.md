@@ -1,6 +1,59 @@
 
 
 ## Manually Testing Functionality
+
+## User story testing
+### Admin
+* As a Admin I can Create a new product so that I can increase the products I have for sale on the site
+   > Admin can create new products in product management or admin panel
+* As a Admin I can Update a products details so that I can adjust the product information
+   > Admin can add, delete and update products on the site
+* As an admin I can Delete a product so that I can change the products I have for sale on the site and if they are no longer available
+   > Admin can delete products on the site or in admin panel
+
+### User
+*  As a new user I can easily register for the website so that I can purchase products quickly and easily
+   > A user can create an account using register
+* As a returning user I can log into the site with my login details so that I can access see my profile and previous orders
+   > Users can log in easily with their details and access their profiles and see their pervious orders
+* As a logged in user I can logout of the site easily so that my account is secure
+   > Users can logout of the site to secure there account
+* As a user I can browse through all the products so that I can choose which one which ones I may want to purchase
+   > Users can browse through all the produts and choose what they wish
+* As a user I can select a product and view it in detail so that I can see more information that may help me to purchase
+   > Users can select a product and view it in detail
+* As a user I can filter the products so that so that I can view products by category and price
+   >  Users can filter through products by category or price. 
+* As a user I can search the site for products so that I can be directed straight to it easily saving me time scrolling through products
+   > Users can easily search for products that they desire
+* As a user I can see reviews and ratings of a product so that I can see other customer opinions on it to help me make up my mind
+   > Users can see reviews and ratings from other users of the product
+*  As a logged in user I can leave a product review once purchased so that I can share my experience with other customers
+   > Users who are logged in can also leave a review to share their experience
+* As a customer I can add a product to the shopping basket so that I can purchase it
+   > Customers can add products to a shopping bag
+* As a customer I can adjust the quantity of items in my bag so that I can order more or less of an item
+   > Users can add more or less into the the bag if they wish to do so.
+* As a customer I can remove an item from my bag so that I am not charged for it
+   > Users can review an item if they wish to do so
+* As a customer I can see the total of my basket so that I know how much I have spent
+   > Users can see the total in their bag for piece of mind of how much they are spending
+*  As a customer I can checkout securely so that I am notified the purchase has been successful
+   > customers can checkout securely and are notified if successful. 
+* As a logged in user I can add or remove a product to my favourites so that it is quick and easy to purchase the item again
+  > Logged on users can add or remove products form there wishlist so they can access them easily.
+* As a logged in user I can view my profile so that I can add default address and view orders
+  > Logged on users can view their profile to make changed to there address and see order history
+* As a user I can signup to the newsletter so that I receive news and discounts from the site
+  > Users can sign up in the footer of the page to subscribe to deals and news that we may have
+*   As a user I can see the sites FAQ's so that I may get some answers to my questions easily
+  > We have frequently ask question page for customers to get quick answers
+*   As a user I can view the sites policy so that I understand how my data will be used
+  > The page has a site policy
+*   As a user I can follow the business on social media so that I can keep up to date with latest news and offers
+  > The page has facebook and also Instagram. 
+
+
 ### **Navigation**
 
 |Element               |Action|Expected Result               |Pass/Fail|
