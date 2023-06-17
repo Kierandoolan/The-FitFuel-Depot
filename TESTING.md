@@ -60,6 +60,17 @@ Throughout developing this site, I have been using Chrome, and chrome dev tools 
 
 Chrome emulated devices, and hardware devices iphone 14, desktop and Ipad were used to test compatibility.
 
+## CSS
+[Jigsaw Css vaildator](https://jigsaw.w3.org/css-validator/) was used to test my Css Code. There were no errors in Products Css. However there was two in the base.css . 
+
+### Error in Base
+
+<h2 class="center"><img src="readme_images/base-css-error.png"> </h2>
+
+Once i fixed these errors i had no more 
+
+<h2 class="center"><img src="readme_images/base-css.png"> </h2>
+
 ## Python
 [ CI Python linter ](https://pep8ci.herokuapp.com/) was used to test python code. Below i will give what bugs came up in each app.
 

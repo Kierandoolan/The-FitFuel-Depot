@@ -86,7 +86,7 @@ body {
 }
 
 .hero {
-    background: url('/media/hero-adobe.jpeg'); no-repeat center center fixed;
+    background: url('/media/hero-adobe.jpeg') no-repeat center center fixed;
     background-size: cover;
     min-height : 500px ;
 
@@ -137,7 +137,7 @@ a.category-badge > span.badge:hover {
 }
 
 .faq-pic{
-    background: url('/media/hero-adobe.jpeg'); no-repeat center center fixed;
+    background: url('/media/hero-adobe.jpeg') no-repeat center center fixed;
     background-size: cover;
     height:400px;
 }
