@@ -54,16 +54,48 @@
 
 ## Functionality testing
 
-Throughout developing this site, I have been using Chrome, and chrome dev tools to help with debugging issues. Testing responsiveness was done using chrome emulated devices
+Throughout developing this site, I have been using Chrome, and chrome dev tools to help with debugging issues. Testing ness was done using chrome emulated devices
 
 ## Compatibility testing
 
 Chrome emulated devices, and hardware devices iphone 14, desktop and Ipad were used to test compatibility.
 
+## Lighthouse
+
+### https://fitfuel-depot.herokuapp.com/index
+
+<h2 class="center"><img src="readme_images/home-lighthouse.png">
+
+### https://fitfuel-depot.herokuapp.com/products/
+<h2 class="center"><img src="readme_images/product-lighthouse.png">
+
+### https://fitfuel-depot.herokuapp.com/products-detail
+<h2 class="center"><img src="readme_images/product-detail-lighthouse.png">
+
+### https://fitfuel-depot.herokuapp.com/company/faq?
+
+<h2 class="center"><img src="readme_images/faq-lighthouse.png">
+
+### https://fitfuel-depot.herokuapp.com/wishlist/
+
+<h2 class="center"><img src="readme_images/wishlist-lighthouse.png">
+
+### https://fitfuel-depot.herokuapp.com/bag/
+
+<h2 class="center"><img src="readme_images/bag-lighthouse.png">
+
+### https://fitfuel-depot.herokuapp.com/company/about-us/
+
+<h2 class="center"><img src="readme_images/askus-lighthouse.png">
+
+### https://fitfuel-depot.herokuapp.com/accounts/signup/
+
+<h2 class="center"><img src="readme_images/signup-lighthouse.png">
+
 ## W3C Markup
 [W3C Markup Validation Service](https://validator.w3.org/) was used to test the website site. Below is the testing on each page.
 
-There were plenty of errors that i fixed but these were the ones i struggled to undo. 
+There were plenty of errors that i fixed but these were the ones i struggled to undo. I'm disappointed i couldn't get these errors fixed on time.
 
 # Unfixed Errors
 1. The aria-labelledby attribute must point to an element in the same document.
@@ -96,15 +128,23 @@ There were plenty of errors that i fixed but these were the ones i struggled to 
 
 ### https://fitfuel-depot.herokuapp.com/checkout/
 
+-All Cleared excited issued as stated above
+
 ### https://fitfuel-depot.herokuapp.com/checkout/checkout_success/
+
+-All Cleared excited issued as stated above
 
 ### https://fitfuel-depot.herokuapp.com/company/about-us/
 
-# Unfixed Errors
-1. The aria-labelledby attribute must point to an element in the same document.
-2. Element li not allowed as child of element nav in this context. (Suppressing further errors from this subtree.)
-3. Stray start tag footer.
+-All Cleared excited issued as stated above
 
+### https://fitfuel-depot.herokuapp.com/accounts/signup/
+
+-All Cleared excited issued as stated above
+
+### https://fitfuel-depot.herokuapp.com/accounts/login/
+
+-All Cleared excited issued as stated above
 
 
 ## CSS
@@ -389,14 +429,6 @@ Throughout the website i kept getting E501 line too long and i did fix them but 
 |                           |                  |form submits                               |Pass  |
 |                           |                  |redirect to order confirmation page        |Pass  |
 |                           |(user logged in)  |order saved to user profile                |Pass  |
-
----
-
-### **Checkout Success Page**
-
-| Element                   | Action | Expected Result         | Pass/Fail |
-|:-------------             |:-------|:-----                        |:-----|
-|Shop Again! button         |Click   |Redirect to products page       |Pass|
 
 ---
 
