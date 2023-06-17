@@ -18,7 +18,7 @@ urlpatterns = [
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 # override the standard error handlers
-handler403 = 'tcc.views.handler403'
-handler404 = 'tcc.views.handler404'
-handler405 = 'tcc.views.handler405'
-handler500 = 'tcc.views.handler500'
+handler403 = 'the_fitfuel_depot.views.handler403'
+handler404 = 'the_fitfuel_depot.views.handler404'
+handler405 = 'the_fitfuel_depot.views.handler405'
+handler500 = 'the_fitfuel_depot.views.handler500'
