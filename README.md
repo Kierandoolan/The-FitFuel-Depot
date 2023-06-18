@@ -276,12 +276,10 @@ i will explain futher down.
 
 <h2 class="center"><img src="readme_images/privacy-policy.png"> </h2>
 
-
-
 ## 404 Error Page
 
-<h2 class="center"><img src="readme_images/error.png"> </h2>
-Fix Errror
+<h2 class="center"><img src="readme_images/404.png"> </h2>
+
 
 ## Admin Features
 
@@ -290,6 +288,11 @@ Fix Errror
 
 ### Edit Products
 <h2 class="center"><img src="readme_images/product-edit.png"> </h2>
+
+
+### Social Media 
+## Facebook 
+<h2 class="center"><img src="readme_images/facebook.png"> </h2>
 
 ### Features to Add in the Future. 
 

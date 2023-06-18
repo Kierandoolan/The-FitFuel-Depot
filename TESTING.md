@@ -1,6 +1,4 @@
 
-
-
 ## User Story Testing
 ### Admin
 * As a Admin I can Create a new product so that I can increase the products I have for sale on the site
