@@ -37,7 +37,6 @@
    
 
 - [Credits](#credits)
-   * [Code](#code)
 
 # User Stories
 
@@ -168,7 +167,7 @@ i will explain futher down.
 
 ### Shopping Bag 
 
-<h2 class="center"><img src="readme_images/shopping-icon.png"> </h2>
+<h2 class="center"><img src="readme_images/shopping-bag.png"> </h2>
 
 ### Bootstrap Toast
 
@@ -272,6 +271,10 @@ i will explain futher down.
 
 <h2 class="center"><img src="readme_images/about.png"> </h2>
 
+### Contact Us
+
+<h2 class="center"><img src="readme_images/contactus.png"> </h2>
+
 ### Privacy Policy
 
 <h2 class="center"><img src="readme_images/privacy-policy.png"> </h2>
@@ -290,11 +293,15 @@ i will explain futher down.
 <h2 class="center"><img src="readme_images/product-edit.png"> </h2>
 
 
-### Social Media 
-## Facebook 
+## Social Media 
+### Facebook 
 <h2 class="center"><img src="readme_images/facebook.png"> </h2>
 
 ### Features to Add in the Future. 
+
+- Add coupon service for email list or when the user signs up for the first time
+
+- Blog about different supplements
 
 ## Technologies
 

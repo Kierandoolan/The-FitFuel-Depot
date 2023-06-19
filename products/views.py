@@ -240,7 +240,7 @@ class ReviewDeleteView(LoginRequiredMixin, DeleteView):
             self.request, 'Your Review has been deleted sucessfully!')
         return response
 
-        
+
 def get_average_rating(reviews):
     """
     Function to get the average rating of product
