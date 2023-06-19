@@ -17,7 +17,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['fitfuel-depot.herokuapp.com', 'localhost', '8000-kierandoola-thefitfueld-sx7tdjh3214.ws-eu100.gitpod.io']
+ALLOWED_HOSTS = ['fitfuel-depot.herokuapp.com', 'localhost',]
 
 
 # Application definition

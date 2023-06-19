@@ -106,43 +106,43 @@ There were plenty of errors that i fixed but these were the ones i struggled to 
 
 ### https://fitfuel-depot.herokuapp.com/products/
 
--All Cleared excited issued as stated above
+-All Cleared except issues as stated above
 
 ### https://fitfuel-depot.herokuapp.com/products/3/
 
--All Cleared excited issued as stated above
+-All Cleared except issues as stated above
 
 ### https://fitfuel-depot.herokuapp.com/company/faq?
 
--All Cleared excited issued as stated above
+-All Cleared except issues as stated above
 
 ### https://fitfuel-depot.herokuapp.com/wishlist/
 
--All Cleared excited issued as stated above
+-All Cleared except issues as stated above
 
 ### https://fitfuel-depot.herokuapp.com/bag/
 
--All Cleared excited issued as stated above
+-All Cleared except issues as stated above
 
 ### https://fitfuel-depot.herokuapp.com/checkout/
 
--All Cleared excited issued as stated above
+-All Cleared except issues as stated above
 
 ### https://fitfuel-depot.herokuapp.com/checkout/checkout_success/
 
--All Cleared excited issued as stated above
+-All Cleared except issues as stated above
 
 ### https://fitfuel-depot.herokuapp.com/company/about-us/
 
--All Cleared excited issued as stated above
+-All Cleared excepted issues as stated above
 
 ### https://fitfuel-depot.herokuapp.com/accounts/signup/
 
--All Cleared excited issued as stated above
+-All Cleared excepted issues as stated above
 
 ### https://fitfuel-depot.herokuapp.com/accounts/login/
 
--All Cleared excited issued as stated above
+-All Cleared excepted issues as stated above
 
 
 ## CSS
@@ -526,19 +526,19 @@ There has been plenty of bugs throughtout these process but thanks to my collegu
 
 ### Database transfer 
 
-When i connected to Heroku i could see none of the product images were transfered over. I checked the admin to confirm if there are any products in my database? I could see that there wasn't. So with the help of Ed the tutor he helped me get them across with categories.json and the products.json.  Which helped me with time and stress. 
+When i connected to Heroku i could see none of the product images were transfered over. I checked the admin panel to confirm if there are any products in my database. I could see that there wasn't. So with the help of Ed the tutor, he helped me get them across with categories.json and the products.json.  Which helped me with time and stress. 
 
 ### AWS Bucket 
 
-I couldn't connect my Logo and Hero Pictures to my Heroku. It turned out i had a hardcorded path and it couldnt pic this up. i changed the code to src="{{ MEDIA_URL }}fitfuel-logo.png" and it fixed the issue. 
+I couldn't connect my Logo and Hero Pictures to my Heroku. It turned out i had a hardcorded path and it couldnt pick this up. I changed the code to src="{{ MEDIA_URL }}fitfuel-logo.png" and it fixed the issue. 
 
 ### Procfile
 
-I was having trouble uploading to Heroku and kept getting a "Application error  crash error code=H10" . It turned out my Profile was wrong as i had the name of the heroku name on it and not the "the_fitfuel_depot"
+I was having trouble uploading to Heroku and kept getting a "Application error  crash error code=H10" . It turned out my Procfile was wrong as i had the name of the heroku name on it and not the "the_fitfuel_depot"
 
-### 404 Error page not showing" 
+### 404 Error page not showing
 
-I was finding it hard to upload all my error pages and kept getting a "Internal Server Error"
+I was finding it hard to upload all my error pages and kept getting a "Internal Server Error". Turned out to be a silly spelling mistake.
 
 ### Lines to long 
 
